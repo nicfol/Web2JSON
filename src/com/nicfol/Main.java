@@ -13,7 +13,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        String url = "https://www.ug.dk/uddannelser/universitetsuddannelser/bacheloruddannelser/naturvidenskabeligebacheloruddannelser/matematikfysikkemiogdatalogi/medialogy";
+        String url = "https://www.ug.dk/uddannelser/kunstneriskeuddannelser/arkitekturkunstogdesign/billedkunstner-0";
 
         //Get edu type based on url and strip name cause faak u dashes
         String[] eduType = findEdutype(url);

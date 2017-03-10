@@ -1,11 +1,9 @@
 package com.nicfol;
 
 import org.jsoup.Jsoup;
-import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
-import org.json.simple.JSONObject;
 
-import java.io.IOException;
+import java.io.*;
 
 public class Main {
 
@@ -13,49 +11,83 @@ public class Main {
 
     public static void main(String[] args) {
 
-        String url = "https://www.ug.dk/uddannelser/kunstneriskeuddannelser/arkitekturkunstogdesign/billedkunstner-0";
+        String address = "C:\\Users\\nicolai\\Documents\\Github\\Web2JSON\\input.txt";
+        String errorfile = "C:\\Users\\nicolai\\Documents\\Github\\Web2JSON\\errors.txt";
 
-        //Get edu type based on url and strip name cause faak u dashes
-        String[] eduType = findEdutype(url);
-
-        String introduction = "";
-        String description = "";
+        FileWriter writer = null;
+        BufferedReader reader = null;
+        String url = "";
 
         try {
-            doc = Jsoup.connect(url).get();
+            reader = new BufferedReader(new FileReader(address));
+
+            File file = new File(errorfile);
+
+            // creates the file
+            file.createNewFile();
+
+            // creates a FileWriter Object
+            writer = new FileWriter(file);
         } catch (IOException e) {
             e.printStackTrace();
         }
 
-        //Get introduction
-        String pixi = "panel-pane pane-entity-field pane-node-field-pixi";
         try {
-            introduction = doc.getElementsByClass(pixi).first().getElementsByClass("field-item even").toString();
-        } catch (NullPointerException e) {
-            System.out.println("No intro class");
+            while ((url = reader.readLine()) != null) {
+                System.out.println(url);
+
+                //Get edu type based on url and strip name cause faak u dashes
+                String[] eduType = findEdutype(url);
+
+                String introduction = "";
+                String description = "";
+
+                try {
+                    doc = Jsoup.connect(url).get();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+
+                //Get introduction
+                try {
+                    String pixi = "panel-pane pane-entity-field pane-node-field-pixi";
+                    introduction = doc.getElementsByClass(pixi).first().getElementsByClass("field-item even").toString();
+                } catch (NullPointerException e) {
+                    System.out.println("No intro class");
+                    writer.write("No intro: " + url + System.lineSeparator());
+                }
+                introduction = cleanString(introduction);
+
+                //Get description
+                try {
+                    String row1 = "views-row views-row-1";
+                    description = doc.getElementsByClass(row1).first().getElementsByClass("field-content").toString();
+                } catch (NullPointerException e) {
+                    System.out.println("No description class");
+                    writer.write("No descr: " + url + System.lineSeparator());
+                }
+                description = cleanString(description);
+
+                //Get title and strip  UG to get education name
+                String title = doc.title().replace(" | UddannelsesGuiden", "");
+
+                writer.flush();
+
+                System.out.println(title);
+                System.out.println();
+                for(int i = 0; i < eduType.length; i++)
+                    System.out.println(eduType[i]);
+                System.out.println();
+                System.out.println(introduction);
+                System.out.println();
+                System.out.println(description);
+                System.out.println();
+
+
+            }
+        } catch(IOException e) {
+            e.printStackTrace();
         }
-        introduction = cleanString(introduction);
-
-        //Get description
-        String row1 = "views-row views-row-1";
-        try {
-            description = doc.getElementsByClass(row1).first().getElementsByClass("field-content").toString();
-        } catch (NullPointerException e) {
-            System.out.println("No description class");
-        }
-        description = cleanString(description);
-
-        //Get title and strip  UG to get education name
-        String title = doc.title().replace(" | UddannelsesGuiden", "");
-
-        System.out.println(title);
-        System.out.println();
-        for(int i = 0; i < eduType.length; i++)
-            System.out.println(eduType[i]);
-        System.out.println();
-        System.out.println(introduction);
-        System.out.println();
-        System.out.println(description);
     }
 
     //Cleans a string
@@ -84,7 +116,8 @@ public class Main {
         //Strip protocol and domain
         url = url.replace("https://", "");
         url = url.replace("https://", "");
-        url = url.replace("www.ug.dk/uddannelser/", "");
+        url = url.replace("ug.dk/uddannelser/", "");
+        url = url.replace("www.", "");
 
         //Split the string into an array based on the forward slashes
         String eduArrTemp[] = url.split("/");

@@ -1,0 +1,951 @@
+﻿Bio- og laboratorietekniske område
+Jordbrugsteknolog
+Laborant
+Procesteknolog
+Designfaglige område
+Designteknolog
+E-designer
+Enkeltfag
+Administrationsøkonom, enkeltfag
+Datamatiker, enkeltfag
+Designteknolog, enkeltfag
+Handelsøkonom, enkeltfag
+Installatør, enkeltfag
+GVS-Mester (Installatør)
+GVS teknisk bachelor (Installatør)
+Markedsføringsøkonom, enkeltfag
+Multimediedesigner, enkeltfag
+Produktionsteknolog, enkeltfag
+Økonomisk-merkantile område
+Financial Controller
+Finansøkonom
+Handelsøkonom
+Logistikøkonom
+Markedsføringsøkonom
+Serviceøkonom
+It-faglige område
+Datamatiker
+IT-teknolog
+Multimediedesigner
+Samfundsfaglige område
+Administrationsøkonom
+Sundhedsfaglige område
+Klinisk tandtekniker
+Tekniske område
+Automationsteknolog
+Autoteknolog
+Byggekoordinator
+Byggetekniker
+Driftsteknolog offshore
+Energiteknolog
+Installatør
+Kort- og landmålingstekniker
+Miljøteknolog
+Produktionsteknolog
+Arkitektur, kunst og design
+Arkitekt - bachelor
+Arkitekt - kandidat
+Billedkunst - bachelor
+Billedkunst - kandidat
+Billedkunst, kunstteori og formidling
+Billedkunstner
+Craft - Glass and Ceramics
+Designer - bachelor
+Designer - kandidat
+Konservator - bachelor
+Konservator - kandidat
+Film og teater
+Animationsuddannelsen
+Balletdanser
+Danseformidler
+Danser
+Dramatikeruddannelsen
+Filmfotograf
+Filminstruktør
+Filmklipper
+Filmproducer
+Filmtonemester
+Forfatter
+Manuskriptforfatter
+Musicaluddannelsen
+Sceneinstruktør
+Scenograf
+Skuespiller
+Teatertekniker
+Tv-uddannelsen
+Musik
+Elektronisk musik og lydkunst - bachelor
+Elektronisk musik og lydkunst - kandidat
+Komposition
+Music Management
+Musik - bachelor
+Musik - kandidat
+Musikpædagogik
+Musikproduktion
+Tonemester - bachelor
+Tonemester - kandidat
+Beredskabsstyrelsens uddannelser
+Erhvervsuddannelser i Forsvaret
+Flyveleder i flyvevåbnet
+Frømand i Søværnet
+Jæger i Hæren
+Kontrol- og varslingsofficer i Flyvevåbnet
+Maskinteknisk officer i Søværnet
+Officer i Hæren
+Operationsstøtteofficer i Flyvevåbnet
+Pilot i Flyvevåbnet
+Politibetjent
+Politikadet
+Professionel soldat i Forsvaret
+Sergent i Forsvaret
+Sirius-patruljefører
+Sprogofficer
+Taktisk officer i Søværnet
+Teknikofficer i Flyvevåbnet
+Tolk i Forsvaret
+Våben- og elektronikteknisk officer i Søværnet
+Designfaglige område
+Smykker, teknologi og business
+Enkeltfag
+Animation, enkeltfag og tompladsordning
+Bygningskonstruktør, enkeltfag og tompladsordning
+Alment (bygningskonstruktør, enkeltfag)
+Produktion (bygningskonstruktør, enkeltfag)
+Projektering (bygningskonstruktør, enkeltfag)
+Registrering (bygningskonstruktør, enkeltfag)
+Virksomhed (bygningskonstruktør, enkeltfag)
+Diplomingeniør - bygning, enkeltfag
+Diplomingeniør - it, enkeltfag
+Ernæring og sundhed, enkeltfag og tompladsordning
+Finans, enkeltfag
+Grafisk fortælling, enkeltfag
+Journalistik, kommunikation og medier, enkeltfag
+Kristendom, kultur og kommunikation, enkeltfag
+Laboratorie-, fødevare- og procesteknologi, enkeltfag
+Lærer i folkeskolen, enkeltfag og tompladsordning
+Bachelorprojekt (læreruddannelsen)
+Billedkunst, undervisningsfag (læreruddannelsen)
+Biologi, undervisningsfag (læreruddannelsen)
+Dansk 1.-6. klasse, undervisningsfag (læreruddannelsen)
+Dansk 4.-10. klasse, undervisningsfag (læreruddannelsen)
+Engelsk 1.-6. klasse, undervisningsfag (læreruddannelsen)
+Engelsk 4.-10. klasse, undervisningsfag (læreruddannelsen)
+Engelsk, undervisningsfag (læreruddannelsen)
+Fransk, undervisningsfag (læreruddannelsen)
+Frivillige kurser (læreruddannelsen)
+Fysik/kemi, undervisningsfag (læreruddannelsen)
+Geografi, undervisningsfag (læreruddannelsen)
+Historie, undervisningsfag (læreruddannelsen)
+Hjemkundskab, undervisningsfag (læreruddannelsen)
+Håndværk og design, undervisningsfag (læreruddannelsen)
+Idræt 1.-6. klasse, undervisningsfag (læreruddannelsen)
+Idræt 4.-10. klasse, undervisningsfag (læreruddannelsen)
+Idræt, undervisningsfag (læreruddannelsen)
+Kristendom/religion, undervisningsfag (læreruddannelsen)
+Lærernes grundfaglighed (læreruddannelsen)
+Madkundskab, undervisningsfag (læreruddannelsen)
+Matematik 1.-6. klasse, undervisningsfag (læreruddannelsen)
+Matematik 4.-10. klasse, undervisningsfag (læreruddannelsen)
+Musik, undervisningsfag (læreruddannelsen)
+Natur/teknik, undervisningsfag (læreruddannelsen)
+Praktik (læreruddannelsen)
+Samfundsfag, undervisningsfag (læreruddannelsen)
+Tysk, undervisningsfag (læreruddannelsen)
+Multiplatfom Storytelling and Production, enkeltfag
+Fashion Shoot - Nordic Noir
+Natur- og kulturformidling, tompladsordning
+Pædagog, enkeltfag og tompladsordning
+Radiograf, enkeltfag og tompladsordning
+Socialrådgiver, åben uddannelse
+Sygeplejerske, enkeltfag og tompladsordning
+Økonomisk-merkantile område
+Eksport og teknologi
+Finans
+Leisure Management
+Økonomi og it
+Procesøkonomi og værdikædeledelse
+Overbygningsuddannelser
+Design og business
+Digital konceptudvikling
+Energimanagement
+Innovation og entrepreneurship
+International handel og markedsføring
+International Hospitality Management
+Jordbrugsvirksomhed
+Laboratorie-, fødevare- og procesteknologi
+Produktudvikling og teknisk integration
+Softwareudvikling
+Sportsmanagement
+Teknisk manager offshore
+Webudvikling
+Pædagogiske område
+Diakoni og socialpædagogik
+Kristendom, kultur og kommunikation
+Lærer fra Den frie Lærerskole
+Lærer i folkeskolen
+Natur- og kulturformidling
+Pædagog
+Tekstildesign, -håndværk og formidling
+Samfundsfaglige område
+Offentlig administration
+Socialrådgiver
+Sundhedsfaglige område
+Bandagist
+Bioanalytiker
+Ergoterapeut
+Ernæring og sundhed
+Fysioterapeut
+Global Nutrition and Health
+Jordemoder
+Optometrist
+Psykomotorisk terapeut
+Radiograf
+Sygeplejerske
+Tandplejer
+Medie- og kommunikationsfaglige område
+Animation
+Dansk tegnsprog og tolkning
+Erhvervssprog og it-baseret markedskommunikation
+Fotojournalist
+Grafisk fortælling
+Grafisk kommunikation
+Journalist
+Kommunikation
+Medie- og sonokommunikation
+Medieproduktion og ledelse
+Multiplatform storytelling and production
+Tv- og medietilrettelæggelse
+Visuel kommunikation
+Tekniske område
+Diplomingeniøruddannelser
+Diplomingeniør - arktisk teknologi
+Diplomingeniør - bæredygtig energiteknik
+Diplomingeniør - bioteknologi
+Diplomingeniør - Business Development Engineer
+Diplomingeniør - bygning
+Diplomingeniør - bygningsdesign
+Diplomingeniør - eksport og teknologi
+Diplomingeniør - eksportteknologi
+Diplomingeniør - elektrisk energiteknologi
+Diplomingeniør - elektronik
+Diplomingeniør - elektronik og datateknik
+Diplomingeniør - elektroteknologi
+Diplomingeniør - fødevaresikkerhed og -kvalitet
+Diplomingeniør - forsyningsteknik
+Diplomingeniør - Global Management and Manufacturing (GMM Engineer)
+Diplomingeniør i mobilitet, transport og logistik
+Diplomingeniør - integreret design
+Diplomingeniør i robotteknologi
+Diplomingeniør - it
+Diplomingeniør - it og økonomi
+Diplomingeniør - kemi
+Diplomingeniør - kemi og fødevareteknologi
+Diplomingeniør - kemiteknik og international business
+Diplomingeniør - maskinteknik
+Diplomingeniør - materialeteknologi
+Diplomingeniør - mekatronik
+Diplomingeniør - proces og innovation
+Diplomingeniør - produktion
+Diplomingeniør - sundhedsteknologi
+Maritime uddannelser
+Maskinmester
+Skibsfører
+Skibsofficer
+Øvrige tekniske uddannelser
+Bygningskonstruktør
+Fødevareteknologi og -applikation
+Have- og parkingeniør
+Katastrofe- og risikomanager
+Skov- og landskabsingeniør
+Bacheloruddannelser
+Humanistiske bacheloruddannelser
+Engelsk og organisationskommunikation
+Interkulturel markedskommunikation
+International virksomhedskommunikation - to fremmedsprog
+International virksomhedskommunikation i engelsk
+International virksomhedskommunikation i fransk
+International virksomhedskommunikation i spansk
+International virksomhedskommunikation i tysk
+Marketing and Management Communication
+Æstetik og kultur
+Amerikanske studier
+Anvendt filosofi
+Arkæologi
+Audiologopædi
+Bibliotekskundskab og videnskommunikation
+Dansk
+Designkultur
+Designkultur og økonomi
+Digital design - it, æstetik og interaktion
+Dramaturgi
+Engelsk sprog og internationale studier (SIS)
+Eskimologi
+Europæisk etnologi
+Film- og medievidenskab
+Filosofi
+Filosofi og videnskabsteori
+Forhistorisk arkæologi
+Historie
+Humanistisk bachelor
+Idehistorie
+Information Management
+Informationsvidenskab
+Informationsvidenskab, it og interaktionsdesign
+Informationsvidenskab og kulturformidling
+Interkulturel pædagogik og dansk som andetsprog
+Journalistik
+Klassisk arkæologi
+Kommunikation
+Kommunikation og digitale medier
+Kommunikation og it
+Kultur- og sprogmødestudier
+Kunsthistorie
+Litteraturvidenskab
+Logopædi
+Medievidenskab
+Musikterapi
+Musikvidenskab
+Nærorientalsk arkæologi
+Oldtidskundskab
+Oplevelsesteknologi
+Pædagogik
+Performance Design
+Religionsvidenskab
+Retorik
+Spansk sprog og internationale studier (SIS)
+Teater- og performancestudier
+Sprog
+Ægyptologi
+Arabisk- og islamstudier
+Assyriologi
+Balkanstudier
+Brasilianske studier
+Engelsk
+Fransk sprog, litteratur og kultur
+Græsk
+Indianske sprog og kulturer
+Indien- og sydasienstudier
+Indoeuropæisk
+Italiensk sprog og kultur
+Japanstudier
+Kinastudier
+Klassiske sprog
+Koreastudier
+Latin
+Lingvistik
+Mellemøstens sprog og samfund (arabisk, hebraisk, persisk, tyrkisk)
+Østeuropastudier
+Polsk
+Portugisiske og brasilianske studier
+Russisk
+Spansk sprog og kultur
+Tysk
+Erhvervssprog
+Øvrige humaniora
+Naturvidenskabelige bacheloruddannelser
+Agrobiologi
+Biokemi og molekylær biologi
+Biologi
+Biologi-bioteknologi
+Biomedicin
+Environmental Biology
+Fødevarer og ernæring
+Geografi
+Geoscience
+Husdyrvidenskab
+Medicinalbiologi
+Molekylærbiologi
+Molekylær medicin
+Naturressourcer
+Veterinærmedicin
+Anvendt matematik
+Biokemi
+Datalogi
+Forsikringsmatematik
+Fysik
+Fysiske fag
+Informatik
+Informationsteknologi
+It
+Kemi
+Matematik
+Matematik-økonomi
+Medialogy
+Medicinalkemi
+Medicin med industriel specialisering
+Nanoscience
+Audiologi
+Idræt
+Interaktionsdesign
+Landskabsarkitektur
+Naturvidenskabelig bachelor
+TekSam - miljøplanlægning
+Biologi, geografi, geologi mv.
+Matematik, fysik, kemi og datalogi
+Øvrige naturvidenskab
+Samfundsvidenskabelige bacheloruddannelser
+Asian Studies Programme
+Business Administration and Service Management
+Business Administration and Sociology
+Business, Language and Culture
+Erhvervsøkonomi - erhvervssprog, negot.
+Erhvervsøkonomi, HA
+Erhvervsøkonomi med tilvalg
+Erhvervsøkonomi og erhvervsjura
+Erhvervsøkonomi og erhvervssprog
+Erhvervsøkonomi og filosofi
+Erhvervsøkonomi og it
+Erhvervsøkonomi og matematik
+Erhvervsøkonomi og projektledelse
+Erhvervsøkonomi og psykologi
+Erhvervsøkonomi og virksomhedskommunikation
+Europæisk business, HA
+International Business and Politics
+International business, BSc(IB)
+International Shipping and Trade
+Jordbrugsøkonomi
+Økonomi
+Jura
+Offentlig politik og økonomi
+Politik og administration
+Samfundsfag
+Samfundsvidenskabelig bachelor
+Socialvidenskab
+Sociologi
+Statskundskab
+Sundhedsfremme og sundhedsstrategier
+Virksomhedsstudier
+Antropologi
+Arbejdslivsstudier
+Europæiske studier
+Innovation og digitalisering
+International Studies
+Kognitionsvidenskab
+Markeds- og ledelsesantropologi
+Organisatorisk læring
+Plan, by og proces
+Psykologi
+Sociologi og kulturanalyse
+Uddannelsesvidenskab
+Erhvervsøkonomi
+Forvaltning mv.
+Øvrige samfundsvidenskab
+Sundhedsvidenskabelige bacheloruddannelser
+Farmaci
+Folkesundhedsvidenskab
+Kiropraktor
+Medicin
+Odontologi
+Sundhed og informatik
+Teknisk videnskabelige bacheloruddannelser
+Arkitektur og design
+Bæredygtigt design
+Bioteknologi
+Byggeri og anlæg
+Byggeteknologi
+Bygningsdesign
+Design og innovation
+Elektronik og datateknik
+Elektronik og it
+Elektroteknologi
+Energi
+By-, energi- og miljøplanlægning
+Energiteknologi
+Fysik og nanoteknologi
+Fysik og teknologi
+General Engineering
+Geofysik og rumteknologi
+Globale forretningssystemer
+Innovation and Business
+Internetteknologier og computersystemer
+It, kommunikations- og medieteknologi
+Kemi og bioteknologi
+Kemi og teknologi
+Kvantitativ biologi og sygdomsmodellering
+Lærings- og oplevelsesteknologi
+Maskin og produktion
+Matematik og teknologi
+Matematik-teknologi
+Mechatronics
+Medicin og teknologi
+Miljøvidenskab
+Nanoteknologi
+Netværksteknologi og it
+Product Development and Innovation
+Produktion og konstruktion
+Produktionsudvikling
+Produkt- og designpsykologi
+Robotics
+Robotteknologi
+Software
+Software Engineering
+Softwareteknologi
+Strategisk analyse og systemdesign
+Sundhedsteknologi
+Sustainable Biotechnology
+Teknisk biomedicin
+Vand, bioressourcer og miljømanagement
+Velfærdsteknologi
+Data Science
+Digitale medier og design
+Global virksomhedsinformatik
+Softwareudvikling
+Humanistisk-teknologisk bachelor
+Landinspektørvidenskab
+Teknoantropologi
+Ingeniørfag
+It-uddannelser
+Øvrige teknisk videnskab
+Teologisk bacheloruddannelse
+Teologi
+Enkeltfag og deluddannelser
+Enkeltfag, IT-Universitetet i København
+Området digital design og kommunikation (enkeltfag)
+Området Digital Innovation and management (enkeltfag)
+Området it-ledelse (enkeltfag)
+Området softwareudvikling (enkeltfag)
+Området spil (enkeltfag)
+Enkeltfag og deluddannelser, Københavns Universitet
+Ægyptologi (enkeltfag)
+Afrikastudier (enkeltfag)
+Arabisk (enkeltfag)
+Bacheloruddannelsen i teologi (enkeltfag)
+BA-tilvalg i middelalderkundskab (enkeltfag)
+BA-tilvalg i museologi
+BA-tilvalg i musikvidenskab
+BA-tilvalg i renæssancekundskab (enkeltfag)
+BA-tilvalg i retorik (enkeltfag)
+Brasilien (enkeltfag)
+Danish Culture Courses (enkeltfag)
+Dansk (enkeltfag)
+Det Teologiske Fakultet og Center for Afrikastudier - Summer University
+Efteruddannelse i latin for gymnasielærere i oldtidskundskab
+Engelsk (enkeltfag)
+Film- og medievidenskab (enkeltfag)
+Filosofi (enkeltfag)
+Fransk (enkeltfag)
+Gymnasiesidefag i arabisk (enkeltfag)
+Gymnasiesidefag i engelsk (enkeltfag)
+Gymnasiesidefag i filosofi (enkeltfag)
+Gymnasiesidefag i historie (enkeltfag)
+Gymnasiesidefag i oldtidskundskab (enkeltfag)
+Historie (enkeltfag)
+Italiensk (enkeltfag)
+Italiensk propædeutik (enkeltfag)
+Jura, kandidat (enkeltfag)
+Kandidatuddannelsen i teologi (enkeltfag)
+Klassisk græsk, propædeutik (enkeltfag)
+Kønsforskning (enkeltfag)
+Kompaktkurser i teologi (enkeltfag)
+Kunsthistorie (enkeltfag)
+Latin propædeutik (enkeltfag)
+Litteraturvidenskab (enkeltfag)
+Nærorientalsk arkæologi (enkeltfag)
+Pædagogik (enkeltfag)
+Psykologi, bachelor (enkeltfag)
+Psykologi, kandidat (enkeltfag)
+Religionsvidenskab (enkeltfag)
+Samfundsvidenskabelig jura, kandidat (enkeltfag)
+Spansk (enkeltfag)
+Sprogpsykologi (enkeltfag)
+Teater- og performancestudier (enkeltfag)
+Tompladsordningen, Københavns Universitet (enkeltfag)
+Tysk (enkeltfag)
+Enkeltfag og deluddannelser, Roskilde Universitet
+Tompladsordningen, Roskilde Universitet (enkeltfag)
+Enkeltfag og deluddannelser, Syddansk Universitet
+Bibliotekskurser (enkeltfag)
+Bioinformatics in Mass Spectrometry based proteomics (enkeltfag)
+Film- og videovidenskab (enkeltfag)
+Jura på deltid (enkeltfag)
+Latin, tilvalg (enkeltfag)
+Manuskriptudvikling (enkeltfag)
+Mass spectrometry in protein chemistry and proteomics (enkeltfag)
+Revisorkandidat - cand.merc.aud. på deltid (SDU)
+Skrivekunst (enkeltfag)
+Tompladsordningen, Syddansk Universitet (enkeltfag)
+Enkeltfag og deluddannelser, Aalborg Universitet
+Creative Genius (enkeltfag)
+Filosofisk vejledning og kreativitet i professionsudvikling og organisationer
+Professionel undren og undersøgelse (enkeltfag)
+Professionsrettet musikanvendelse, bachelor (enkeltfag)
+Psykologi på deltid (enkeltfag)
+Sidefag i psykologi (enkeltfag)
+Tompladsordningen, Aalborg Universitet (enkeltfag)
+Tysk (enkeltfag)
+Enkeltfag og deluddannelser, Aarhus Universitet
+Jura, modul 1 af bacheloruddannelsen (enkeltfag)
+Jura, modul 2 af bacheloruddannelsen (enkeltfag)
+Jura, modul 3 af bacheloruddannelsen (enkeltfag)
+Jura, særligt tilrettelagt bachelorforløb
+Nordisk sprog og litteratur (enkeltfag)
+Programmering for gymnasielærere (enkeltfag)
+Revisorkandidat - cand.merc.aud. på deltid (AU)
+Tilvalg i historie (enkeltfag)
+Tompladsordningen, Aarhus Universitet (enkeltfag)
+Ingeniøruddannelser, enkeltfag og tompladsordning
+Forskeruddannelse (ph.d.)
+Kandidatuddannelser
+Humanistiske kandidatuddannelser
+Erhvervssprog og international virksomhedskommunikation
+Kommunikationsdesign
+Virksomhedskommunikation
+Performance Design
+Æstetik og kultur
+Afrikastudier
+Amerikanske studier
+Anvendt filosofi
+Anvendt kulturanalyse
+Audiologi
+Audiologopædi
+Bæredygtig kulturarvsmanagement
+Dansk
+Designstudier
+Diakoni
+Didaktik
+Digital design
+Dramaturgi
+Eskimologi
+Europæisk etnologi
+Europas religiøse rødder
+Europastudier
+Film- og medievidenskab
+Filosofi
+Filosofi og videnskabsteori
+Forhistorisk arkæologi
+Historie
+Idehistorie
+Information Architecture
+Informationsvidenskab
+Informationsvidenskab og kulturformidling
+Interaktive digitale medier
+Interkulturelle markedsstudier
+Interkulturelle studier
+Internationale studier
+Islamiske studier
+It-didaktisk design
+It, læring og organisatorisk omstilling
+It og kognition
+Journalistik
+Klassisk arkæologi
+Kognition og kommunikation
+Kognitiv semiotik
+Kommunikation
+Kommunikation og it
+Kultur, kommunikation og globalisering
+Kultur og formidling
+Kultur- og sprogmødestudier
+Kunsthistorie
+Læring og forandringsprocesser
+Litteraturvidenskab
+Marinarkæologi
+Medievidenskab
+Middelalder- og renæssancearkæologi
+Migrationsstudier
+Moderne kultur og kulturformidling
+Musikterapi
+Musikvidenskab
+Nærorientalsk arkæologi
+Oldtidskundskab
+Oplevelsesdesign
+Oplevelsesøkonomi
+Pædagogik
+Pædagogisk antropologi
+Pædagogisk filosofi
+Pædagogisk psykologi
+Pædagogisk sociologi
+Religionssociologi
+Religionsvidenskab
+Retorik
+Sprogpsykologi
+Teater- og performancestudier
+Turisme
+Tværkulturelle studier
+Visuel kultur
+Sprog
+Ægyptologi
+Arabisk- og islamstudier
+Asienstudier
+Assyriologi
+Brasilianske studier
+Engelsk
+Finsk
+Fransk sprog, litteratur og kultur
+Græsk middelalderfilologi
+Indianske sprog og kulturer
+Indien- og sydasienstudier
+Indoeuropæisk
+Italiensk sprog og kultur
+Japanstudier
+Kinastudier
+Klassiske sprog
+Klassisk græsk
+Latin
+Latinsk middelalderfilologi
+Lingvistik
+Mellemøststudier
+Østeuropastudier
+Polsk sprog og kultur
+Portugisiske og brasilianske studier
+Russisk sprog og kultur
+Spansk sprog og kultur
+Tysk
+Erhvervssprog
+Øvrige humaniora
+Naturvidenskabelige kandidatuddannelser
+Agrobiologi
+Agronomi
+Biokemi og molekylær biologi
+Biologi
+Biologi-bioteknologi
+Biomedicin
+Environmental and Natural Resource Economics - ENRE
+Environmental Biology
+Fødevareinnovation og sundhed
+Fødevarevidenskab
+Geografi
+Geologi
+Human ernæring
+Husdyrvidenskab
+Jordbrug, natur og miljø
+Klimaforandringer
+Klinisk ernæring
+Medicinalbiologi
+Molekylærbiologi
+Molekylær ernæring og fødevareteknologi
+Molekylær medicin
+Nanobioscience
+Naturressourcer og udvikling
+Omics
+Skovbrugsvidenskab
+Vand og miljø
+Veterinærmedicin
+Anvendt matematik
+Astronomi
+Bioinformatik
+Biokemi
+Biomedicinsk informatik
+Datahåndtering
+Datalogi
+Forsikringsmatematik
+Fysik
+Fysiske fag
+Geofysik
+Informatik
+It produktudvikling
+Kemi
+Maskinintelligens
+Matematik
+Matematik-økonomi
+Medialogy
+Medicinalkemi
+Medicin med industriel specialisering
+Miljøvidenskab
+Nanoscience
+Statistik
+Environmental Risk
+Humanfysiologi
+Idræt
+Interaktionsdesign
+Klinisk videnskab og teknologi
+Landskabsarkitektur
+Lysdesign
+Nanoscience og teknologi
+Naturforvaltning
+Neuroscience and Neuroimaging
+TekSam - miljøplanlægning
+Videnskabsstudier
+Biologi, geografi, geologi mv.
+Matematik, fysik, kemi og datalogi
+Øvrige naturvidenskab
+Samfundsvidenskabelige kandidatuddannelser
+Bioentrepreneurskab
+E-business
+Erhvervsøkonomi, cand.merc.
+Erhvervsøkonomi, cand.soc.
+Erhvervsøkonomi - erhvervssprog, negot.
+Erhvervsøkonomi - erhvervssprog, negot.(international turisme og fritidsmanagement)
+Erhvervsøkonomi og erhvervsjura
+Erhvervsøkonomi og erhvervssprog
+Erhvervsøkonomi og filosofi
+Erhvervsøkonomi og it
+Erhvervsøkonomi og matematik
+Erhvervsøkonomi og psykologi
+Erhvervsøkonomi og virksomhedskommunikation
+International Business and Politics
+Jordbrugsøkonomi
+Økonomi
+Revisorkandidat, cand.merc. aud.
+By, bolig og bosætning
+Designledelse
+Forvaltning
+International Public Administration and Politics
+International sikkerhed og folkeret
+Jura
+Komparativ politik og velfærdsstudier
+Kriminologi
+Miljø- og konfliktanalyse
+Miljø og ressource management
+Politik og administration
+Public Management and Social Development
+Samfundsfag
+Samfundsvidenskabelig jura
+Sikkerheds- og risikoledelse
+Social Entrepreneurship and Management
+Socialt arbejde
+Socialvidenskab
+Sociologi
+Statskundskab
+Sundhedsfremme og sundhedsstrategier
+Udvikling og internationale relationer
+Virksomhedsstudier
+Antropologi
+Arbejdslivsstudier
+European Studies
+Global Studies
+Global udvikling
+Human Resource Management (HRM)
+International Development Studies
+It-ledelse
+Kultursociologi
+Management of Creative Business Processes
+Organisatorisk innovation og entreprenørskab
+Plan, by og proces
+Politisk kommunikation og ledelse
+Psykologi
+Service management
+Sociale interventionsstudier
+Spatial Designs and Society
+Sundhedsinnovation
+Uddannelsesvidenskab
+Virksomhedsledelse
+Erhvervsøkonomi
+Forvaltning mv.
+Øvrige samfundsvidenskab
+Sundhedsvidenskabelige kandidatuddannelser
+Ergoterapi
+Farmaceutisk videnskab
+Farmaci
+Folkesundhedsvidenskab
+Fysioterapi
+Global sundhed
+Humanbiologi
+Immunologi og inflammation
+Jordemodervidenskab
+Kandidat i sygepleje
+Kiropraktor
+Klinisk sygepleje
+Lægemiddelvidenskab
+Medicin
+Odontologi
+Optometri og synsvidenskab
+Sundhed og informatik
+Sundhedsfaglig kandidat
+Teknisk videnskabelige kandidatuddannelser
+Akvatisk videnskab og teknologi
+Anvendt kemi
+Bæredygtig byudvikling
+Bæredygtig energi
+Bæredygtigt design
+Bioinformatik og systembiologi
+Bioteknologi
+Bygge- og anlægskonstruktion
+Byggeri
+Byggeteknologi
+Bygningsdesign
+Computerteknologi
+Design af mekaniske systemer
+Design og innovation
+Digitale medieteknologier
+Elektromekanisk systemdesign
+Elektronik
+Elektroteknologi
+By-, energi- og miljøplanlægning
+Energiteknik
+Energiteknologi
+Farmateknologi
+Fødevareteknologi
+Fotonik
+Fysik og nanoteknologi
+Fysik og teknologi
+Geofysik og rumteknologi
+Indeklima og energi
+Indlejrede softwaresystemer
+Industriel økonomi og teknologiledelse
+Industrielt design
+Informationsteknologi
+Innovation og business
+Innovativ kommunikationsteknik og entreprenørskab
+Intelligent Reliable Systems
+Kemi (civilingeniør)
+Kemi og bioteknologi
+Kemisk og biokemisk teknologi
+Kemisk og biokemisk teknologi i biomasse og energi
+Konstruktion og mekanik
+Konstruktionsteknik
+Lærings- og oplevelsesteknologi
+Landinspektørvidenskab
+Lyd og akustisk teknologi
+Lyd- og musikteknologi
+Maskinkonstruktion
+Matematik-teknologi
+Matematisk modellering og computing
+Materiale- og procesteknologi
+Materialeteknologi
+Medicin og teknologi
+Mekanik
+Mekatronik
+Miljøteknologi
+Nanobioteknologi
+Nanomaterialer og nanofysik
+Netværk og distribuerede systemer
+Olie- og gasteknologi
+Operations Management
+Product Development and Innovation
+Produkt- og designpsykologi
+Regulering og automation
+Robotteknologi
+Signalbehandling og beregning
+Sikkerhed og risikostyring
+Software
+Software Engineering
+Sundhedsteknologi
+Sustainable Biotechnology
+Sustainable Energy Engineering
+Teknisk geologi
+Teknologibaseret forretningsudvikling
+Telekommunikation
+Transport og logistik
+Trådløse kommunikationssystemer
+Urbant design
+Værdikæder og innovationsledelse
+Værdikæder og teknisk ledelse
+Veje og trafik
+Velfærdsteknologi
+Vindenergi
+Virksomhedssystemer
+Virksomhedsteknologi
+Vision, grafik og interaktive systemer
+Digital design og kommunikation
+Digital innovation og management
+It-design og applikationsudvikling
+It, kommunikation og organisation
+It-produktdesign
+Softwareudvikling
+Spil
+Webkommunikation
+Byggeledelse og bygningsinformatik
+Bygningers energidesign
+Forretningsinnovation
+Globalt systemdesign
+Idrætsteknologi
+Integrerede fødevarestudier
+Ledelse og informatik i byggeriet
+Produktion
+Service Systems Design
+Teknoantropologi
+Civilingeniøruddannelser
+It-uddannelser
+Øvrige teknisk videnskab
+Teologisk kandidatuddannelse
+Teologi

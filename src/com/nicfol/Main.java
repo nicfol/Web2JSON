@@ -13,21 +13,28 @@ public class Main {
 
         String address = "C:\\Users\\nicolai\\Documents\\Github\\Web2JSON\\input.txt";
         String errorfile = "C:\\Users\\nicolai\\Documents\\Github\\Web2JSON\\errors.txt";
+        String namefile = "C:\\Users\\nicolai\\Documents\\Github\\Web2JSON\\names.txt";
 
-        FileWriter writer = null;
+        FileWriter errorWriter = null;
+        FileWriter nameWriter = null;
+
         BufferedReader reader = null;
         String url = "";
 
         try {
             reader = new BufferedReader(new FileReader(address));
 
-            File file = new File(errorfile);
+            File fileError = new File(errorfile);
+            File fileName = new File(namefile);
 
             // creates the file
-            file.createNewFile();
+            fileError.createNewFile();
+            fileName.createNewFile();
 
             // creates a FileWriter Object
-            writer = new FileWriter(file);
+            errorWriter = new FileWriter(fileError);
+            nameWriter = new FileWriter(fileName);
+
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -48,15 +55,26 @@ public class Main {
                     e.printStackTrace();
                 }
 
+                //Get title and strip  UG to get education name
+                String title = doc.title().replace(" | UddannelsesGuiden", "");
+                cleanString(title);
+
+                //Write to file
+
+                nameWriter.write(title + System.lineSeparator());
+
+
                 //Get introduction
                 try {
                     String pixi = "panel-pane pane-entity-field pane-node-field-pixi";
                     introduction = doc.getElementsByClass(pixi).first().getElementsByClass("field-item even").toString();
                 } catch (NullPointerException e) {
                     System.out.println("No intro class");
-                    writer.write("No intro: " + url + System.lineSeparator());
+                    errorWriter.write("No intro: " + url + System.lineSeparator());
                 }
                 introduction = cleanString(introduction);
+
+
 
                 //Get description
                 try {
@@ -64,14 +82,12 @@ public class Main {
                     description = doc.getElementsByClass(row1).first().getElementsByClass("field-content").toString();
                 } catch (NullPointerException e) {
                     System.out.println("No description class");
-                    writer.write("No descr: " + url + System.lineSeparator());
+                    errorWriter.write("No descr: " + url + System.lineSeparator());
                 }
                 description = cleanString(description);
 
-                //Get title and strip  UG to get education name
-                String title = doc.title().replace(" | UddannelsesGuiden", "");
-
-                writer.flush();
+                nameWriter.flush();
+                errorWriter.flush();
 
                 System.out.println(title);
                 System.out.println();
@@ -83,11 +99,23 @@ public class Main {
                 System.out.println(description);
                 System.out.println();
 
+                Thread.sleep(10);
 
             }
-        } catch(IOException e) {
+        } catch(Exception e) {
             e.printStackTrace();
         }
+
+        try {
+            errorWriter.flush();
+            errorWriter.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+        System.out.println("---------------------------------------------------");
+        System.out.println("--------------------  DONE  -----------------------");
+        System.out.println("---------------------------------------------------");
     }
 
     //Cleans a string
@@ -102,6 +130,9 @@ public class Main {
         str2Clean = str2Clean.replace("<strong>", "");
         str2Clean = str2Clean.replace("</strong>", "");
         str2Clean = str2Clean.replace("\n ", "\n");
+        str2Clean = str2Clean.replace("<a href=\"", "");
+        str2Clean = str2Clean.replace("\">", "");
+        str2Clean = str2Clean.replace("</a>", "");
 
         //Clear leading and trailing new lines
         if(str2Clean.startsWith("\n"))

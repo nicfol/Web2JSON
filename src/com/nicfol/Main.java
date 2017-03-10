@@ -11,9 +11,10 @@ public class Main {
 
     public static void main(String[] args) {
 
-        String address = "C:\\Users\\nicolai\\Documents\\Github\\Web2JSON\\input.txt";
-        String errorfile = "C:\\Users\\nicolai\\Documents\\Github\\Web2JSON\\errors.txt";
-        String namefile = "C:\\Users\\nicolai\\Documents\\Github\\Web2JSON\\names.txt";
+        String path = "C:\\Users\\nicolai\\Documents\\Github\\Web2JSON\\";
+        String address = path + "input.txt";
+        String errorfile = path + "errors.txt";
+        String namefile = path + "names.txt";
 
         FileWriter errorWriter = null;
         FileWriter nameWriter = null;

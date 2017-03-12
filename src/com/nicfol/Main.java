@@ -7,10 +7,8 @@ import java.io.*;
 
 public class Main {
 
-    static Document doc = null;
-
     public static void main(String[] args) {
-        
+        ugScraper();
     }
 
     //Cleans a string
@@ -57,6 +55,9 @@ public class Main {
     }
 
     private static void ugScraper() {
+
+        Document doc = null;
+
         String path = "C:\\Users\\nicolai\\Documents\\Github\\Web2JSON\\";
         String address = path + "input.txt";
         String errorfile = path + "errors.txt";

@@ -10,7 +10,53 @@ public class Main {
     static Document doc = null;
 
     public static void main(String[] args) {
+        
+    }
 
+    //Cleans a string
+    private static String cleanString(String str2Clean) {
+        //Remove various html tags
+        str2Clean = str2Clean.replace("<p>", "");
+        str2Clean = str2Clean.replace("</p>", "");
+        str2Clean = str2Clean.replace("<div class=\"field-content\">", "");
+        str2Clean = str2Clean.replace("<div class=\"field-item even\">", "");
+        str2Clean = str2Clean.replace("</div>", "");
+        str2Clean = str2Clean.replace("&nbsp;", " ");
+        str2Clean = str2Clean.replace("<strong>", "");
+        str2Clean = str2Clean.replace("</strong>", "");
+        str2Clean = str2Clean.replace("\n ", "\n");
+        str2Clean = str2Clean.replace("<a href=\"", "");
+        str2Clean = str2Clean.replace("\">", "");
+        str2Clean = str2Clean.replace("</a>", "");
+
+        //Clear leading and trailing new lines
+        if(str2Clean.startsWith("\n"))
+            str2Clean = str2Clean.substring(1, str2Clean.length());
+        if(str2Clean.endsWith("\n"))
+            str2Clean = str2Clean.substring(0, str2Clean.length()-1);
+
+        return str2Clean;
+    }
+
+    private static String[] findEdutype(String url) {
+        //Strip protocol and domain
+        url = url.replace("https://", "");
+        url = url.replace("https://", "");
+        url = url.replace("ug.dk/uddannelser/", "");
+        url = url.replace("www.", "");
+
+        //Split the string into an array based on the forward slashes
+        String eduArrTemp[] = url.split("/");
+
+        //Strip the array of the last position (name) cause it's useless and save to a new array
+
+        String[] eduType = new String[eduArrTemp.length-1];
+        System.arraycopy(eduArrTemp, 0, eduType, 0, eduArrTemp.length-1);
+
+        return eduType;
+    }
+
+    private static void ugScraper() {
         String path = "C:\\Users\\nicolai\\Documents\\Github\\Web2JSON\\";
         String address = path + "input.txt";
         String errorfile = path + "errors.txt";
@@ -61,7 +107,6 @@ public class Main {
                 cleanString(title);
 
                 //Write to file
-
                 nameWriter.write(title + System.lineSeparator());
 
 
@@ -117,48 +162,5 @@ public class Main {
         System.out.println("---------------------------------------------------");
         System.out.println("--------------------  DONE  -----------------------");
         System.out.println("---------------------------------------------------");
-    }
-
-    //Cleans a string
-    private static String cleanString(String str2Clean) {
-        //Remove various html tags
-        str2Clean = str2Clean.replace("<p>", "");
-        str2Clean = str2Clean.replace("</p>", "");
-        str2Clean = str2Clean.replace("<div class=\"field-content\">", "");
-        str2Clean = str2Clean.replace("<div class=\"field-item even\">", "");
-        str2Clean = str2Clean.replace("</div>", "");
-        str2Clean = str2Clean.replace("&nbsp;", " ");
-        str2Clean = str2Clean.replace("<strong>", "");
-        str2Clean = str2Clean.replace("</strong>", "");
-        str2Clean = str2Clean.replace("\n ", "\n");
-        str2Clean = str2Clean.replace("<a href=\"", "");
-        str2Clean = str2Clean.replace("\">", "");
-        str2Clean = str2Clean.replace("</a>", "");
-
-        //Clear leading and trailing new lines
-        if(str2Clean.startsWith("\n"))
-            str2Clean = str2Clean.substring(1, str2Clean.length());
-        if(str2Clean.endsWith("\n"))
-            str2Clean = str2Clean.substring(0, str2Clean.length()-1);
-
-        return str2Clean;
-    }
-
-    private static String[] findEdutype(String url) {
-        //Strip protocol and domain
-        url = url.replace("https://", "");
-        url = url.replace("https://", "");
-        url = url.replace("ug.dk/uddannelser/", "");
-        url = url.replace("www.", "");
-
-        //Split the string into an array based on the forward slashes
-        String eduArrTemp[] = url.split("/");
-
-        //Strip the array of the last position (name) cause it's useless and save to a new array
-
-        String[] eduType = new String[eduArrTemp.length-1];
-        System.arraycopy(eduArrTemp, 0, eduType, 0, eduArrTemp.length-1);
-
-        return eduType;
     }
 }

@@ -2,20 +2,92 @@ package com.nicfol;
 
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
+import org.jsoup.nodes.Element;
 
+import javax.lang.model.element.Name;
 import java.io.*;
 
 public class Main {
 
     public static void main(String[] args) {
-        ugScraper();
+
+        String path = "C:\\Users\\nicolai\\Documents\\Github\\Web2JSON\\";
+        String inputBA = path + "aauBAlinks.txt";
+        String inputMSC = path + "aauMSClinks.txt";
+
+        String faglightIndhold = "/fagligt-indhold";
+
+        BufferedReader readerLinks = null;
+        BufferedReader hovedtal = null;
+        String url = "";
+
+        try {
+            readerLinks = new BufferedReader(new FileReader(inputBA));
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        }
+
+        try {
+            Document doc = null;
+            while ((url = readerLinks.readLine()) != null) {
+
+                try {
+                    doc = Jsoup.connect(url).get();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+                String eduLevel = findEdutype(url)[0]; //Ba or MSc
+                String eduName = findEdutype(url)[1]; //Name
+
+                //Name from website
+                Element nameJSe = doc.getElementById("main").getElementsByClass("highlighted doubleSpaced").first();
+
+                String name = nameJSe.unwrap().toString();
+
+                name = name.replace(", Bachelor", "");
+                //System.out.println(name);
+
+                hovedtal = new BufferedReader(new FileReader(path + "hovedtal2016.csv"));
+                String temp = "";
+                int cnt = 1;
+                while((temp = hovedtal.readLine()) != null) {
+                    String arr[] = temp.split(",");
+                    if(arr[0].matches(".*\\b" + name + "\\b.*")){
+                        System.out.println(cnt + " == " +name + " =========== " + arr[0]);
+                    }
+                    cnt++;
+                }
+
+
+                Element gridG8 = doc.getElementsByClass("spotCon grid g8").first();
+                Element descriptionJSe = gridG8.select("[itemprop=articleBody]").first();
+                descriptionJSe.getElementsByTag("img").remove();
+                descriptionJSe.getElementsByTag("a").unwrap();
+                descriptionJSe.getElementsByTag("p").unwrap();
+
+                //description.text(); //Remove all tags but preserve text (parse only text)
+
+                String description = cleanString(descriptionJSe.toString());
+                //System.out.print(description);
+
+
+                try {
+                    Thread.sleep(100);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 
     //Cleans a string
     private static String cleanString(String str2Clean) {
         //Remove various html tags
-        str2Clean = str2Clean.replace("<p>", "");
-        str2Clean = str2Clean.replace("</p>", "");
+        //str2Clean = str2Clean.replace("<p>", "");
+        //str2Clean = str2Clean.replace("</p>", "");
         str2Clean = str2Clean.replace("<div class=\"field-content\">", "");
         str2Clean = str2Clean.replace("<div class=\"field-item even\">", "");
         str2Clean = str2Clean.replace("</div>", "");
@@ -23,9 +95,11 @@ public class Main {
         str2Clean = str2Clean.replace("<strong>", "");
         str2Clean = str2Clean.replace("</strong>", "");
         str2Clean = str2Clean.replace("\n ", "\n");
-        str2Clean = str2Clean.replace("<a href=\"", "");
         str2Clean = str2Clean.replace("\">", "");
-        str2Clean = str2Clean.replace("</a>", "");
+        //str2Clean = str2Clean.replace("<a href=\"", "");
+        //str2Clean = str2Clean.replace("</a>", "");
+        str2Clean = str2Clean.replace("<div itemprop=\"articleBody ", "");
+
 
         //Clear leading and trailing new lines
         if(str2Clean.startsWith("\n"))
@@ -39,9 +113,10 @@ public class Main {
     private static String[] findEdutype(String url) {
         //Strip protocol and domain
         url = url.replace("https://", "");
-        url = url.replace("https://", "");
+        url = url.replace("http://", "");
         url = url.replace("ug.dk/uddannelser/", "");
         url = url.replace("www.", "");
+        url = url.replace("aau.dk/uddannelser/", "");
 
         //Split the string into an array based on the forward slashes
         String eduArrTemp[] = url.split("/");
@@ -51,7 +126,7 @@ public class Main {
         String[] eduType = new String[eduArrTemp.length-1];
         System.arraycopy(eduArrTemp, 0, eduType, 0, eduArrTemp.length-1);
 
-        return eduType;
+        return eduArrTemp;
     }
 
     private static void ugScraper() {

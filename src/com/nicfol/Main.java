@@ -33,12 +33,14 @@ public class Main {
             while ((url = readerLinks.readLine()) != null) {
 
                 try {
-                    doc = Jsoup.connect(url).get();
+                    doc = Jsoup.connect(url + faglightIndhold).get();
                 } catch (IOException e) {
                     e.printStackTrace();
                 }
                 String eduLevel = findEdutype(url)[0]; //Ba or MSc
                 String eduName = findEdutype(url)[1]; //Name
+
+                /*
 
                 //Name from website
                 Element nameJSe = doc.getElementById("main").getElementsByClass("highlighted doubleSpaced").first();
@@ -48,6 +50,9 @@ public class Main {
                 name = name.replace(", Bachelor", "");
                 //System.out.println(name);
 
+
+
+                //COMPARE WITH HOVEDTAL TO SEE WHAT EDUCATIONS CAN BE AUTOMATED
                 hovedtal = new BufferedReader(new FileReader(path + "hovedtal2016.csv"));
                 String temp = "";
                 int cntHovedtal = 1;
@@ -59,18 +64,20 @@ public class Main {
                     }
                     cntHovedtal++;
                 }
+                */
 
-
+                //GET DESCRIPTION
                 Element gridG8 = doc.getElementsByClass("spotCon grid g8").first();
                 Element descriptionJSe = gridG8.select("[itemprop=articleBody]").first();
                 descriptionJSe.getElementsByTag("img").remove();
                 descriptionJSe.getElementsByTag("a").unwrap();
                 descriptionJSe.getElementsByTag("p").unwrap();
 
-                //description.text(); //Remove all tags but preserve text (parse only text)
+                //Remove all tags but preserve text (parse only text)
+                //description.text();
 
                 String description = cleanString(descriptionJSe.toString());
-                //System.out.print(description);
+                System.out.print(description);
 
 
                 try {

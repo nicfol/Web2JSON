@@ -1,0 +1,41 @@
+{
+	"education" : "ICTE",
+	"education_level" : "Master",
+	"insitution" : "Aalborg Universitet",
+	"campus" : "København",
+
+	"applications" : [
+		{ "2015" :  "11" },	
+		{ "2016" :  "10" },	
+	],
+	
+	"intake" : [
+		{ "2015" :  "5" },
+		{ "2016" :  "5" },
+	],
+	
+	"grades" : [
+		{ "2016" :  "6,22" },
+		{ "2016" :  "7,54" },
+	],
+	
+	"education_form" [
+		{ "1" : "Projekarbejde" }, 
+		{ "2" : "Selvstudie" },
+	],
+		
+	"avg_dropout_rate" : "10%",
+	"avg_completion_time" : "1 år og 9 måneder",
+	"ug_link" : "http://www.ug.dk/uddannelser/universitetsuddannelser/kandidatuddannelser/tekniskvidenskabeligekandidatuddannelser/civilingenioeruddannelser/innovativ-kommunikationsteknik-og-entreprenoerskab",
+
+	"similar_educations" : [
+		{ "Teknologibaseret forretningsudvikling" : "https://www.ug.dk/uddannelser/universitetsuddannelser/kandidatuddannelser/tekniskvidenskabeligekandidatuddannelser/civilingenioeruddannelser/teknologibaseret-forretningsudvikling" },
+		{ "Digitale Medieteknologier" : "https://www.ug.dk/uddannelser/universitetsuddannelser/kandidatuddannelser/tekniskvidenskabeligekandidatuddannelser/civilingenioeruddannelser/digitale-medieteknologier" },
+	],
+	
+	"possible_jobs" : [
+		{ "Projekleder" : "https://www.ug.dk/job/erhverv-og-job/akademiskarbogledelse/administrativtarb/projektleder" }
+		{ "Elektroingeniør" : "https://www.ug.dk/job/erhverv-og-job/akademiskarbogledelse/ingenioerarbejde/elektroingenioer" }
+	]
+	
+}

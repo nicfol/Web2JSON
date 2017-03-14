@@ -27,6 +27,7 @@ public class Main {
             e.printStackTrace();
         }
 
+        int cntLine = 1;
         try {
             Document doc = null;
             while ((url = readerLinks.readLine()) != null) {
@@ -49,13 +50,14 @@ public class Main {
 
                 hovedtal = new BufferedReader(new FileReader(path + "hovedtal2016.csv"));
                 String temp = "";
-                int cnt = 1;
+                int cntHovedtal = 1;
                 while((temp = hovedtal.readLine()) != null) {
                     String arr[] = temp.split(",");
                     if(arr[0].matches(".*\\b" + name + "\\b.*")){
-                        System.out.println(cnt + " == " +name + " =========== " + arr[0]);
+                        System.out.println(cntLine + " " + cntHovedtal + " == " +name + " =========== " + arr[0]);
+                        cntLine++;
                     }
-                    cnt++;
+                    cntHovedtal++;
                 }
 
 

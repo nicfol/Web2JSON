@@ -1,4 +1,4 @@
 - Fil med AAU navne, KOT navne og UGzoom navne
-- Filer (ba/msc) med AAU descriptions i JSON format udd : beskrivelse
+- Find ud af hvad vi gør med specialiseringer
 - JSON fil med data (- beskrivelse?)
 -

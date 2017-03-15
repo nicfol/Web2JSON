@@ -42,7 +42,7 @@ public class Main {
             e.printStackTrace();
         }
 
-
+        
         while((MScurl = aauMSCLinks.readNextLine()) != null) {
             System.out.println(MScurl);
 

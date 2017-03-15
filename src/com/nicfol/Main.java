@@ -10,7 +10,7 @@ import java.io.*;
 public class Main {
 
     public static void main(String[] args) {
-
+        System.out.println(getAAUname("http://www.aau.dk/uddannelser/bachelor/anvendt-filosofi"));
     }
 
     //Cleans a string
@@ -40,7 +40,7 @@ public class Main {
         return str2Clean;
     }
 
-    private static String[] findEdutype(String url) {
+    private static String[] findUGEdutype(String url) {
         //Strip protocol and domain
         url = url.replace("https://", "");
         url = url.replace("http://", "");
@@ -60,6 +60,37 @@ public class Main {
     }
 
     private static String getAAUdesc(String link) {
+        Document doc = null;
+
+                try {
+                    doc = Jsoup.connect(link + "/fagligt-indhold").get();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+
+                //GET DESCRIPTION
+                Element gridG8 = doc.getElementsByClass("spotCon grid g8").first();
+                Element descriptionJSe = gridG8.select("[itemprop=articleBody]").first();
+                descriptionJSe.getElementsByTag("img").remove();
+                descriptionJSe.getElementsByTag("a").unwrap();
+                descriptionJSe.getElementsByTag("p").unwrap();
+
+                //Remove all tags but preserve text (parse only text)
+                descriptionJSe.text();
+
+                String description = cleanString(descriptionJSe.toString());
+                description = Jsoup.parse(description).text();
+
+                try {
+                    Thread.sleep(10);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+        return description;
+    }
+
+    private static String getAAUname(String link) {
+
         String path = "C:\\Users\\nicolai\\Documents\\Github\\Web2JSON\\input\\";
         String inputBA = path + "aauBAlinks.txt";
         String inputMSC = path + "aauMSClinks.txt";
@@ -70,14 +101,24 @@ public class Main {
         BufferedReader hovedtal = null;
         String url = "";
 
-        FileWriter descriptionWriter = null;
+        //FileWriter descriptionWriter = null;
+
+        BufferedWriter descriptionWriter = null;
+        try {
+            descriptionWriter = new BufferedWriter
+                    (new OutputStreamWriter(new FileOutputStream(path + "nameerrors.txt"), "UTF-16"));
+        } catch (UnsupportedEncodingException e) {
+            e.printStackTrace();
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        }
 
         try {
             readerLinks = new BufferedReader(new FileReader(inputBA));
 
-            File descriptionFile = new File(path + "aauDescriptions.txt");
+            File descriptionFile = new File(path + "nameerrors.txt");
             descriptionFile.createNewFile();
-            descriptionWriter = new FileWriter(descriptionFile);
+            //descriptionWriter = new FileWriter(descriptionFile);
 
         } catch (FileNotFoundException e) {
             e.printStackTrace();
@@ -91,15 +132,15 @@ public class Main {
             while ((url = readerLinks.readLine()) != null) {
 
                 try {
-                    doc = Jsoup.connect(url + faglightIndhold).get();
+                    doc = Jsoup.connect(url).get();
                 } catch (IOException e) {
                     e.printStackTrace();
                 }
-                String eduLevel = findEdutype(url)[0]; //Ba or MSc
-                String eduName = findEdutype(url)[1]; //Name
+                //String eduLevel = findUGEdutype(url)[0]; //Ba or MSc
+                //String eduName = findUGEdutype(url)[1]; //Name
 
 
-                /*
+
                 //Names from aau website
                 Element nameJSe = doc.getElementById("main").getElementsByClass("highlighted doubleSpaced").first();
 
@@ -115,41 +156,28 @@ public class Main {
                 while((temp = hovedtal.readLine()) != null) {
                     String arr[] = temp.split(",");
                     if(arr[0].matches(".*\\b" + name + "\\b.*")){
-                        System.out.println(cntLine + " " + cntHovedtal + " == " +name + " =========== " + arr[0]);
+                        descriptionWriter.write(cntLine + " " + cntHovedtal + " == " +name + " =========== " + arr[0] + System.getProperty("line.separator"));
                         cntLine++;
+                        System.out.println(cntLine);
                     }
                     cntHovedtal++;
                 }
-                */
-
-                //GET DESCRIPTION
-                Element gridG8 = doc.getElementsByClass("spotCon grid g8").first();
-                Element descriptionJSe = gridG8.select("[itemprop=articleBody]").first();
-                descriptionJSe.getElementsByTag("img").remove();
-                descriptionJSe.getElementsByTag("a").unwrap();
-                descriptionJSe.getElementsByTag("p").unwrap();
-
-                //Remove all tags but preserve text (parse only text)
-                descriptionJSe.text();
-
-                String description = cleanString(descriptionJSe.toString());
-                description = Jsoup.parse(description).text();
-
-                descriptionWriter.write("   { \"" + eduName + "\" : \"" + description + "\" } \n");
 
 
-                System.out.print("   { \"" + eduName + "\" : \"" + description + "\" }, \n");
+
 
                 try {
                     Thread.sleep(10);
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
-
             }
+            descriptionWriter.flush();
+            descriptionWriter.close();
         } catch (IOException e) {
             e.printStackTrace();
         }
+        return null;
     }
 
     private static void ugScraper() {
@@ -190,7 +218,7 @@ public class Main {
                 System.out.println(url);
 
                 //Get edu type based on url and strip name cause faak u dashes
-                String[] eduType = findEdutype(url);
+                String[] eduType = findUGEdutype(url);
 
                 String introduction = "";
                 String description = "";

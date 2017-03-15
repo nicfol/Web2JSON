@@ -13,19 +13,19 @@ public class Main {
 
     public static void main(String[] args) {
         //Files
-        //String fileAAUlinksBA = workingDirectory + "/input/aauBAlinks.txt";
+        String fileAAUlinksBA = workingDirectory + "/input/aauBAlinks.txt";
         String fileAAUlinksMSc = workingDirectory + "/input/aauMSclinks.txt";
 
-        //ReadFile aauBALinks = new ReadFile(fileAAUlinksBA);
+        ReadFile aauBALinks = new ReadFile(fileAAUlinksBA);
         ReadFile aauMSCLinks = new ReadFile(fileAAUlinksMSc);
 
-        //String Baurl = "";
+        String Baurl = "";
         String MScurl = "";
 
-        //JSONObject baOBJ = new JSONObject();
+        JSONObject baOBJ = new JSONObject();
         JSONObject mscOBJ = new JSONObject();
 
-/*
+
         while((Baurl = aauBALinks.readNextLine()) != null) {
             System.out.println(Baurl);
 
@@ -41,7 +41,7 @@ public class Main {
         } catch (IOException e) {
             e.printStackTrace();
         }
-*/
+
 
         while((MScurl = aauMSCLinks.readNextLine()) != null) {
             System.out.println(MScurl);

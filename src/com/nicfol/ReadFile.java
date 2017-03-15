@@ -7,7 +7,7 @@ import java.io.IOException;
 
 public class ReadFile {
 
-    private static BufferedReader reader;
+    private BufferedReader reader;
 
     public ReadFile(String file) {
         try {

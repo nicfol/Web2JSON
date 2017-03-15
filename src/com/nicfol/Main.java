@@ -3,33 +3,38 @@ package com.nicfol;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
+import sun.text.bidi.BidiRun;
 
 import javax.lang.model.element.Name;
 import java.io.*;
 
 public class Main {
 
+    private final static String workingDirectory = System.getProperty("user.dir");           //Working Directory
+
     public static void main(String[] args) {
-        System.out.println(getAAUname("http://www.aau.dk/uddannelser/bachelor/anvendt-filosofi"));
+        //Files
+        String fileAAUlinksBA = workingDirectory + "/input/aauBAlinks.txt";
+        String fileAAUlinksMSc = workingDirectory + "/input/aauMSclinks.txt";
+
+        ReadFile aauBALinks = new ReadFile(fileAAUlinksBA);
+
+        System.out.println(aauBALinks.readNextLine());
+
     }
 
     //Cleans a string
     private static String cleanString(String str2Clean) {
         //Remove various html tags
-        //str2Clean = str2Clean.replace("<p>", "");
-        //str2Clean = str2Clean.replace("</p>", "");
+        str2Clean = str2Clean.replace("<p>", "");
+        str2Clean = str2Clean.replace("</p>", " ");
         str2Clean = str2Clean.replace("<div class=\"field-content\">", "");
         str2Clean = str2Clean.replace("<div class=\"field-item even\">", "");
         str2Clean = str2Clean.replace("</div>", "");
         str2Clean = str2Clean.replace("&nbsp;", " ");
-        str2Clean = str2Clean.replace("<strong>", "");
-        str2Clean = str2Clean.replace("</strong>", "");
         str2Clean = str2Clean.replace("\n ", "\n");
         str2Clean = str2Clean.replace("\">", "");
-        //str2Clean = str2Clean.replace("<a href=\"", "");
-        //str2Clean = str2Clean.replace("</a>", "");
         str2Clean = str2Clean.replace("<div itemprop=\"articleBody ", "");
-
 
         //Clear leading and trailing new lines
         if(str2Clean.startsWith("\n"))
@@ -62,122 +67,44 @@ public class Main {
     private static String getAAUdesc(String link) {
         Document doc = null;
 
-                try {
-                    doc = Jsoup.connect(link + "/fagligt-indhold").get();
-                } catch (IOException e) {
-                    e.printStackTrace();
-                }
+        try {
+            doc = Jsoup.connect(link + "/fagligt-indhold").get();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
 
-                //GET DESCRIPTION
-                Element gridG8 = doc.getElementsByClass("spotCon grid g8").first();
-                Element descriptionJSe = gridG8.select("[itemprop=articleBody]").first();
-                descriptionJSe.getElementsByTag("img").remove();
-                descriptionJSe.getElementsByTag("a").unwrap();
-                descriptionJSe.getElementsByTag("p").unwrap();
+        //GET DESCRIPTION
+        Element gridG8 = doc.getElementsByClass("spotCon grid g8").first();
+        Element descriptionJSe = gridG8.select("[itemprop=articleBody]").first();
+        descriptionJSe.getElementsByTag("img").remove();
+        descriptionJSe.getElementsByTag("table").unwrap();
+        descriptionJSe.getElementsByTag("a").unwrap();
 
-                //Remove all tags but preserve text (parse only text)
-                descriptionJSe.text();
+        //Remove all tags but preserve text (parse only text)
+        descriptionJSe.text();
 
-                String description = cleanString(descriptionJSe.toString());
-                description = Jsoup.parse(description).text();
+        String description = cleanString(descriptionJSe.toString());
+        description = Jsoup.parse(description).text();
 
-                try {
-                    Thread.sleep(10);
-                } catch (InterruptedException e) {
-                    e.printStackTrace();
-                }
         return description;
     }
 
     private static String getAAUname(String link) {
-
-        String path = "C:\\Users\\nicolai\\Documents\\Github\\Web2JSON\\input\\";
-        String inputBA = path + "aauBAlinks.txt";
-        String inputMSC = path + "aauMSClinks.txt";
-
-        String faglightIndhold = "/fagligt-indhold";
-
-        BufferedReader readerLinks = null;
-        BufferedReader hovedtal = null;
-        String url = "";
-
-        //FileWriter descriptionWriter = null;
-
-        BufferedWriter descriptionWriter = null;
-        try {
-            descriptionWriter = new BufferedWriter
-                    (new OutputStreamWriter(new FileOutputStream(path + "nameerrors.txt"), "UTF-16"));
-        } catch (UnsupportedEncodingException e) {
-            e.printStackTrace();
-        } catch (FileNotFoundException e) {
-            e.printStackTrace();
-        }
+        Document doc = null;
 
         try {
-            readerLinks = new BufferedReader(new FileReader(inputBA));
-
-            File descriptionFile = new File(path + "nameerrors.txt");
-            descriptionFile.createNewFile();
-            //descriptionWriter = new FileWriter(descriptionFile);
-
-        } catch (FileNotFoundException e) {
-            e.printStackTrace();
-        } catch (Exception e) {
-
-        }
-
-        int cntLine = 1;
-        try {
-            Document doc = null;
-            while ((url = readerLinks.readLine()) != null) {
-
-                try {
-                    doc = Jsoup.connect(url).get();
-                } catch (IOException e) {
-                    e.printStackTrace();
-                }
-                //String eduLevel = findUGEdutype(url)[0]; //Ba or MSc
-                //String eduName = findUGEdutype(url)[1]; //Name
-
-
-
-                //Names from aau website
-                Element nameJSe = doc.getElementById("main").getElementsByClass("highlighted doubleSpaced").first();
-
-                String name = nameJSe.unwrap().toString();
-
-                name = name.replace(", Bachelor", "");
-                //System.out.println(name);
-
-                //COMPARE WITH HOVEDTAL TO SEE WHAT EDUCATIONS CAN BE AUTOMATED
-                hovedtal = new BufferedReader(new FileReader(path + "hovedtal2016.csv"));
-                String temp = "";
-                int cntHovedtal = 1;
-                while((temp = hovedtal.readLine()) != null) {
-                    String arr[] = temp.split(",");
-                    if(arr[0].matches(".*\\b" + name + "\\b.*")){
-                        descriptionWriter.write(cntLine + " " + cntHovedtal + " == " +name + " =========== " + arr[0] + System.getProperty("line.separator"));
-                        cntLine++;
-                        System.out.println(cntLine);
-                    }
-                    cntHovedtal++;
-                }
-
-
-
-
-                try {
-                    Thread.sleep(10);
-                } catch (InterruptedException e) {
-                    e.printStackTrace();
-                }
-            }
-            descriptionWriter.flush();
-            descriptionWriter.close();
+            doc = Jsoup.connect(link).get();
         } catch (IOException e) {
             e.printStackTrace();
         }
-        return null;
+
+        //Names from aau website
+        Element nameJSe = doc.getElementById("main").getElementsByClass("highlighted doubleSpaced").first();
+
+        String name = nameJSe.unwrap().toString();
+        name = name.replace(", Bachelor", "");
+
+        return name;
     }
 
     private static void ugScraper() {

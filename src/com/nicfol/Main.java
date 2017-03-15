@@ -1,11 +1,10 @@
 package com.nicfol;
 
+import org.json.simple.JSONObject;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
-import sun.text.bidi.BidiRun;
 
-import javax.lang.model.element.Name;
 import java.io.*;
 
 public class Main {
@@ -19,8 +18,24 @@ public class Main {
 
         ReadFile aauBALinks = new ReadFile(fileAAUlinksBA);
 
-        System.out.println(aauBALinks.readNextLine());
+        String url = "";
+        JSONObject obj = new JSONObject();
 
+        while((url = aauBALinks.readNextLine()) != null) {
+            String desc = getAAUdesc(url);
+            String name = getAAUname(url);
+
+            obj.put(name, desc);
+        }
+
+        try (FileWriter file = new FileWriter(workingDirectory + "/output/aauDescriptionsBA.json")) {
+
+            file.write(obj.toJSONString());
+            file.flush();
+
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 
     //Cleans a string

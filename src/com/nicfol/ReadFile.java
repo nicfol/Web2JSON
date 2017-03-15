@@ -18,11 +18,8 @@ public class ReadFile {
     }
 
     public String readNextLine() {
-
         try {
-            while(reader.readLine() != null) {
-                return reader.readLine();
-            }
+            return reader.readLine();
         } catch (IOException e) {
             e.printStackTrace();
         }

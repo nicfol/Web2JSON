@@ -6,22 +6,22 @@
 
 	"applications" : [
 		{ "2015" :  "11" },	
-		{ "2016" :  "10" },	
+		{ "2016" :  "10" }
 	],
 	
 	"intake" : [
 		{ "2015" :  "5" },
-		{ "2016" :  "5" },
+		{ "2016" :  "5" }
 	],
 	
 	"grades" : [
 		{ "2016" :  "6,22" },
-		{ "2016" :  "7,54" },
+		{ "2016" :  "7,54" }
 	],
 	
-	"education_form" [
+	"education_form" : [
 		{ "1" : "Projekarbejde" }, 
-		{ "2" : "Selvstudie" },
+		{ "2" : "Selvstudie" }
 	],
 		
 	"avg_dropout_rate" : "10%",

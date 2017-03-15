@@ -1,0 +1,4 @@
+- Fil med AAU navne, KOT navne og UGzoom navne
+- Filer (ba/msc) med AAU descriptions i JSON format udd : beskrivelse
+- JSON fil med data (- beskrivelse?)
+-

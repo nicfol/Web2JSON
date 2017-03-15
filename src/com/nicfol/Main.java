@@ -11,85 +11,6 @@ public class Main {
 
     public static void main(String[] args) {
 
-        String path = "C:\\Users\\nicolai\\Documents\\Github\\Web2JSON\\";
-        String inputBA = path + "aauBAlinks.txt";
-        String inputMSC = path + "aauMSClinks.txt";
-
-        String faglightIndhold = "/fagligt-indhold";
-
-        BufferedReader readerLinks = null;
-        BufferedReader hovedtal = null;
-        String url = "";
-
-        try {
-            readerLinks = new BufferedReader(new FileReader(inputBA));
-        } catch (FileNotFoundException e) {
-            e.printStackTrace();
-        }
-
-        int cntLine = 1;
-        try {
-            Document doc = null;
-            while ((url = readerLinks.readLine()) != null) {
-
-                try {
-                    doc = Jsoup.connect(url + faglightIndhold).get();
-                } catch (IOException e) {
-                    e.printStackTrace();
-                }
-                String eduLevel = findEdutype(url)[0]; //Ba or MSc
-                String eduName = findEdutype(url)[1]; //Name
-
-                /*
-
-                //Name from website
-                Element nameJSe = doc.getElementById("main").getElementsByClass("highlighted doubleSpaced").first();
-
-                String name = nameJSe.unwrap().toString();
-
-                name = name.replace(", Bachelor", "");
-                //System.out.println(name);
-
-
-
-                //COMPARE WITH HOVEDTAL TO SEE WHAT EDUCATIONS CAN BE AUTOMATED
-                hovedtal = new BufferedReader(new FileReader(path + "hovedtal2016.csv"));
-                String temp = "";
-                int cntHovedtal = 1;
-                while((temp = hovedtal.readLine()) != null) {
-                    String arr[] = temp.split(",");
-                    if(arr[0].matches(".*\\b" + name + "\\b.*")){
-                        System.out.println(cntLine + " " + cntHovedtal + " == " +name + " =========== " + arr[0]);
-                        cntLine++;
-                    }
-                    cntHovedtal++;
-                }
-                */
-
-                //GET DESCRIPTION
-                Element gridG8 = doc.getElementsByClass("spotCon grid g8").first();
-                Element descriptionJSe = gridG8.select("[itemprop=articleBody]").first();
-                descriptionJSe.getElementsByTag("img").remove();
-                descriptionJSe.getElementsByTag("a").unwrap();
-                descriptionJSe.getElementsByTag("p").unwrap();
-
-                //Remove all tags but preserve text (parse only text)
-                //description.text();
-
-                String description = cleanString(descriptionJSe.toString());
-                System.out.print(description);
-
-
-                try {
-                    Thread.sleep(100);
-                } catch (InterruptedException e) {
-                    e.printStackTrace();
-                }
-
-            }
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
     }
 
     //Cleans a string
@@ -138,12 +59,105 @@ public class Main {
         return eduArrTemp;
     }
 
+    private static String getAAUdesc(String link) {
+        String path = "C:\\Users\\nicolai\\Documents\\Github\\Web2JSON\\input\\";
+        String inputBA = path + "aauBAlinks.txt";
+        String inputMSC = path + "aauMSClinks.txt";
+
+        String faglightIndhold = "/fagligt-indhold";
+
+        BufferedReader readerLinks = null;
+        BufferedReader hovedtal = null;
+        String url = "";
+
+        FileWriter descriptionWriter = null;
+
+        try {
+            readerLinks = new BufferedReader(new FileReader(inputBA));
+
+            File descriptionFile = new File(path + "aauDescriptions.txt");
+            descriptionFile.createNewFile();
+            descriptionWriter = new FileWriter(descriptionFile);
+
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        } catch (Exception e) {
+
+        }
+
+        int cntLine = 1;
+        try {
+            Document doc = null;
+            while ((url = readerLinks.readLine()) != null) {
+
+                try {
+                    doc = Jsoup.connect(url + faglightIndhold).get();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+                String eduLevel = findEdutype(url)[0]; //Ba or MSc
+                String eduName = findEdutype(url)[1]; //Name
+
+
+                /*
+                //Names from aau website
+                Element nameJSe = doc.getElementById("main").getElementsByClass("highlighted doubleSpaced").first();
+
+                String name = nameJSe.unwrap().toString();
+
+                name = name.replace(", Bachelor", "");
+                //System.out.println(name);
+
+                //COMPARE WITH HOVEDTAL TO SEE WHAT EDUCATIONS CAN BE AUTOMATED
+                hovedtal = new BufferedReader(new FileReader(path + "hovedtal2016.csv"));
+                String temp = "";
+                int cntHovedtal = 1;
+                while((temp = hovedtal.readLine()) != null) {
+                    String arr[] = temp.split(",");
+                    if(arr[0].matches(".*\\b" + name + "\\b.*")){
+                        System.out.println(cntLine + " " + cntHovedtal + " == " +name + " =========== " + arr[0]);
+                        cntLine++;
+                    }
+                    cntHovedtal++;
+                }
+                */
+
+                //GET DESCRIPTION
+                Element gridG8 = doc.getElementsByClass("spotCon grid g8").first();
+                Element descriptionJSe = gridG8.select("[itemprop=articleBody]").first();
+                descriptionJSe.getElementsByTag("img").remove();
+                descriptionJSe.getElementsByTag("a").unwrap();
+                descriptionJSe.getElementsByTag("p").unwrap();
+
+                //Remove all tags but preserve text (parse only text)
+                descriptionJSe.text();
+
+                String description = cleanString(descriptionJSe.toString());
+                description = Jsoup.parse(description).text();
+
+                descriptionWriter.write("   { \"" + eduName + "\" : \"" + description + "\" } \n");
+
+
+                System.out.print("   { \"" + eduName + "\" : \"" + description + "\" }, \n");
+
+                try {
+                    Thread.sleep(10);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
     private static void ugScraper() {
 
         Document doc = null;
 
-        String path = "C:\\Users\\nicolai\\Documents\\Github\\Web2JSON\\";
-        String address = path + "input.txt";
+        String path = "C:\\Users\\nicolai\\Documents\\Github\\Web2JSON\\input\\";
+        String address = path + "ugLinks.txt";
         String errorfile = path + "errors.txt";
         String namefile = path + "names.txt";
 

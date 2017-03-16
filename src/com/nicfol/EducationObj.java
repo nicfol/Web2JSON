@@ -12,7 +12,7 @@ public class EducationObj {
     String educationLevel;
     String institution;
     String campus;
-    String[] educationForms;
+    Map educationForms;
     float dropout_rate;
     String completionTime;
     String[][] similarEducations;
@@ -22,22 +22,15 @@ public class EducationObj {
     Map<Integer,Integer> intake;
     Map<Integer,Integer> grades;
 
-
-    //int[][] applicants;
-    //int[] intake;
-    //float[] grades;
-
     public EducationObj(
                         String name,
                         String ugLink,
                         String educationLevel,
                         String institution,
                         String campus,
-                        String[] educationForms,
+                        Map educationForms,
                         float dropout_rate,
                         String completionTime,
-                        //String[][] similarEducations,
-                        //String[][] possibleJobs,
                         Map applicants,
                         Map intake,
                         Map grades) {

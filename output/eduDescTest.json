@@ -6,11 +6,14 @@
       "educationLevel": "Bacheloruddannelse",
       "institution": "Aalborg University",
       "campus": "Aalborg",
-      "educationForms": [
-        "EduForm1",
-        "eduForm2"
-      ],
-      "dropout_rate": 10.0,
+      "educationForms": {
+        "1": "Forelæsninger",
+        "2": "Selvstudie",
+        "3": "Projektarbejde",
+        "4": "Gruppearbejde",
+        "5": "Klasseundervisning"
+      },
+      "dropout_rate": 18.0,
       "completionTime": "2 år og 10 måneder",
       "applicants": {
         "2015": 3,
@@ -26,11 +29,14 @@
       "educationLevel": "Bacheloruddannelse",
       "institution": "Aalborg University",
       "campus": "Aalborg",
-      "educationForms": [
-        "EduForm1",
-        "eduForm2"
-      ],
-      "dropout_rate": 10.0,
+      "educationForms": {
+        "1": "Gruppearbejde",
+        "2": "Projektarbejde",
+        "3": "Forelæsninger",
+        "4": "Selvstudie",
+        "5": "Faglig vejledning fra din underviser"
+      },
+      "dropout_rate": 25.0,
       "completionTime": "2 år og 9 måneder",
       "applicants": {
         "2015": 3,
@@ -46,11 +52,14 @@
       "educationLevel": "Bacheloruddannelse",
       "institution": "Aalborg University",
       "campus": "Aalborg",
-      "educationForms": [
-        "EduForm1",
-        "eduForm2"
-      ],
-      "dropout_rate": 10.0,
+      "educationForms": {
+        "1": "Projektarbejde",
+        "2": "Gruppearbejde",
+        "3": "Selvstudie",
+        "4": "Forelæsninger",
+        "5": "Klasseundervisning"
+      },
+      "dropout_rate": 27.0,
       "completionTime": "2 år og 10 måneder",
       "applicants": {
         "2015": 3,
@@ -66,11 +75,14 @@
       "educationLevel": "Bacheloruddannelse",
       "institution": "Aalborg University",
       "campus": "Aalborg",
-      "educationForms": [
-        "EduForm1",
-        "eduForm2"
-      ],
-      "dropout_rate": 10.0,
+      "educationForms": {
+        "1": "Projektarbejde",
+        "2": "Forelæsninger",
+        "3": "Gruppearbejde",
+        "4": "Selvstudie",
+        "5": "Øvelsestimer"
+      },
+      "dropout_rate": 17.0,
       "completionTime": "2 år og 11 måneder",
       "applicants": {
         "2015": 3,
@@ -86,11 +98,14 @@
       "educationLevel": "Bacheloruddannelse",
       "institution": "Aalborg University",
       "campus": "Aalborg",
-      "educationForms": [
-        "EduForm1",
-        "eduForm2"
-      ],
-      "dropout_rate": 10.0,
+      "educationForms": {
+        "1": "Projektarbejde",
+        "2": "Gruppearbejde",
+        "3": "Forelæsninger",
+        "4": "Selvstudie",
+        "5": "Øvelsestimer"
+      },
+      "dropout_rate": 23.0,
       "completionTime": "2 år og 9 måneder",
       "applicants": {
         "2015": 3,
@@ -106,11 +121,14 @@
       "educationLevel": "Bacheloruddannelse",
       "institution": "Aalborg University",
       "campus": "København SV",
-      "educationForms": [
-        "EduForm1",
-        "eduForm2"
-      ],
-      "dropout_rate": 10.0,
+      "educationForms": {
+        "1": "Projektarbejde",
+        "2": "Gruppearbejde",
+        "3": "Selvstudie",
+        "4": "Klasseundervisning",
+        "5": "Forelæsninger"
+      },
+      "dropout_rate": 40.0,
       "completionTime": "2 år og 9 måneder",
       "applicants": {
         "2015": 3,
@@ -126,11 +144,14 @@
       "educationLevel": "Bacheloruddannelse",
       "institution": "Aalborg University",
       "campus": "Esbjerg",
-      "educationForms": [
-        "EduForm1",
-        "eduForm2"
-      ],
-      "dropout_rate": 10.0,
+      "educationForms": {
+        "1": "-101",
+        "2": "-101",
+        "3": "-101",
+        "4": "-101",
+        "5": "-101"
+      },
+      "dropout_rate": 12.0,
       "completionTime": "2 år og 6 måneder",
       "applicants": {
         "2015": 3,
@@ -146,11 +167,14 @@
       "educationLevel": "Professionsbacheloruddannelse",
       "institution": "Aalborg University",
       "campus": "Aalborg",
-      "educationForms": [
-        "EduForm1",
-        "eduForm2"
-      ],
-      "dropout_rate": 10.0,
+      "educationForms": {
+        "1": "-101",
+        "2": "-101",
+        "3": "-101",
+        "4": "-101",
+        "5": "-101"
+      },
+      "dropout_rate": 21.0,
       "completionTime": "2 år og 7 måneder",
       "applicants": {
         "2015": 3,
@@ -166,11 +190,14 @@
       "educationLevel": "Professionsbacheloruddannelse",
       "institution": "Aalborg University",
       "campus": "Esbjerg",
-      "educationForms": [
-        "EduForm1",
-        "eduForm2"
-      ],
-      "dropout_rate": 10.0,
+      "educationForms": {
+        "1": "-101",
+        "2": "-101",
+        "3": "-101",
+        "4": "-101",
+        "5": "-101"
+      },
+      "dropout_rate": 21.0,
       "completionTime": "2 år og 7 måneder",
       "applicants": {
         "2015": 3,
@@ -186,11 +213,14 @@
       "educationLevel": "Professionsbacheloruddannelse",
       "institution": "Aalborg University",
       "campus": "Aalborg",
-      "educationForms": [
-        "EduForm1",
-        "eduForm2"
-      ],
-      "dropout_rate": 10.0,
+      "educationForms": {
+        "1": "Projektarbejde",
+        "2": "Forelæsninger",
+        "3": "Gruppearbejde",
+        "4": "Selvstudie",
+        "5": "Faglig vejledning fra din underviser"
+      },
+      "dropout_rate": 20.0,
       "completionTime": "1 år og 11 måneder",
       "applicants": {
         "2015": 3,
@@ -206,11 +236,14 @@
       "educationLevel": "Bacheloruddannelse",
       "institution": "Aalborg University",
       "campus": "København SV",
-      "educationForms": [
-        "EduForm1",
-        "eduForm2"
-      ],
-      "dropout_rate": 10.0,
+      "educationForms": {
+        "1": "Projektarbejde",
+        "2": "Gruppearbejde",
+        "3": "Klasseundervisning",
+        "4": "Selvstudie",
+        "5": "Forelæsninger"
+      },
+      "dropout_rate": 22.0,
       "completionTime": "-101",
       "applicants": {
         "2015": 3,
@@ -226,11 +259,14 @@
       "educationLevel": "Bacheloruddannelse",
       "institution": "Aalborg University",
       "campus": "Aalborg",
-      "educationForms": [
-        "EduForm1",
-        "eduForm2"
-      ],
-      "dropout_rate": 10.0,
+      "educationForms": {
+        "1": "Selvstudie",
+        "2": "Forelæsninger",
+        "3": "Projektarbejde",
+        "4": "Klasseundervisning",
+        "5": "Gruppearbejde"
+      },
+      "dropout_rate": 30.0,
       "completionTime": "2 år og 11 måneder",
       "applicants": {
         "2015": 3,
@@ -246,11 +282,14 @@
       "educationLevel": "Bacheloruddannelse",
       "institution": "Aalborg University",
       "campus": "Aalborg",
-      "educationForms": [
-        "EduForm1",
-        "eduForm2"
-      ],
-      "dropout_rate": 10.0,
+      "educationForms": {
+        "1": "Projektarbejde",
+        "2": "Gruppearbejde",
+        "3": "Forelæsninger",
+        "4": "Selvstudie",
+        "5": "Faglig vejledning fra din underviser"
+      },
+      "dropout_rate": 27.0,
       "completionTime": "3 år og 0 måneder",
       "applicants": {
         "2015": 3,
@@ -266,11 +305,14 @@
       "educationLevel": "Professionsbacheloruddannelse",
       "institution": "Aalborg University",
       "campus": "Aalborg",
-      "educationForms": [
-        "EduForm1",
-        "eduForm2"
-      ],
-      "dropout_rate": 10.0,
+      "educationForms": {
+        "1": "Gruppearbejde",
+        "2": "Forelæsninger",
+        "3": "Projektarbejde",
+        "4": "Selvstudie",
+        "5": "Faglig vejledning fra din underviser"
+      },
+      "dropout_rate": 36.0,
       "completionTime": "1 år og 8 måneder",
       "applicants": {
         "2015": 3,
@@ -286,11 +328,14 @@
       "educationLevel": "Bacheloruddannelse",
       "institution": "Aalborg University",
       "campus": "Esbjerg",
-      "educationForms": [
-        "EduForm1",
-        "eduForm2"
-      ],
-      "dropout_rate": 10.0,
+      "educationForms": {
+        "1": "Projektarbejde",
+        "2": "Gruppearbejde",
+        "3": "Selvstudie",
+        "4": "Forelæsninger",
+        "5": "Klasseundervisning"
+      },
+      "dropout_rate": 14.0,
       "completionTime": "-101",
       "applicants": {
         "2015": 3,
@@ -306,11 +351,14 @@
       "educationLevel": "Bacheloruddannelse",
       "institution": "Aalborg University",
       "campus": "Aalborg",
-      "educationForms": [
-        "EduForm1",
-        "eduForm2"
-      ],
-      "dropout_rate": 10.0,
+      "educationForms": {
+        "1": "Projektarbejde",
+        "2": "Gruppearbejde",
+        "3": "Forelæsninger",
+        "4": "Selvstudie",
+        "5": "Øvelsestimer"
+      },
+      "dropout_rate": 14.0,
       "completionTime": "2 år og 7 måneder",
       "applicants": {
         "2015": 3,
@@ -326,11 +374,14 @@
       "educationLevel": "Professionsbacheloruddannelse",
       "institution": "Aalborg University",
       "campus": "Esbjerg",
-      "educationForms": [
-        "EduForm1",
-        "eduForm2"
-      ],
-      "dropout_rate": 10.0,
+      "educationForms": {
+        "1": "-101",
+        "2": "-101",
+        "3": "-101",
+        "4": "-101",
+        "5": "-101"
+      },
+      "dropout_rate": 24.0,
       "completionTime": "2 år og 2 måneder",
       "applicants": {
         "2015": 3,
@@ -346,11 +397,14 @@
       "educationLevel": "Bacheloruddannelse",
       "institution": "Aalborg University",
       "campus": "Esbjerg",
-      "educationForms": [
-        "EduForm1",
-        "eduForm2"
-      ],
-      "dropout_rate": 10.0,
+      "educationForms": {
+        "1": "Projektarbejde",
+        "2": "Gruppearbejde",
+        "3": "Forelæsninger",
+        "4": "Klasseundervisning",
+        "5": "Selvstudie"
+      },
+      "dropout_rate": 32.0,
       "completionTime": "2 år og 9 måneder",
       "applicants": {
         "2015": 3,
@@ -366,11 +420,14 @@
       "educationLevel": "Bacheloruddannelse",
       "institution": "Aalborg University",
       "campus": "Aalborg",
-      "educationForms": [
-        "EduForm1",
-        "eduForm2"
-      ],
-      "dropout_rate": 10.0,
+      "educationForms": {
+        "1": "Selvstudie",
+        "2": "Forelæsninger",
+        "3": "Projektarbejde",
+        "4": "Klasseundervisning",
+        "5": "Gruppearbejde"
+      },
+      "dropout_rate": 19.0,
       "completionTime": "2 år og 11 måneder",
       "applicants": {
         "2015": 3,
@@ -386,11 +443,14 @@
       "educationLevel": "Bacheloruddannelse",
       "institution": "Aalborg University",
       "campus": "Aalborg",
-      "educationForms": [
-        "EduForm1",
-        "eduForm2"
-      ],
-      "dropout_rate": 10.0,
+      "educationForms": {
+        "1": "Projektarbejde",
+        "2": "Forelæsninger",
+        "3": "Selvstudie",
+        "4": "Gruppearbejde",
+        "5": "Faglig vejledning fra din underviser"
+      },
+      "dropout_rate": 12.0,
       "completionTime": "2 år og 4 måneder",
       "applicants": {
         "2015": 3,
@@ -406,11 +466,14 @@
       "educationLevel": "Bacheloruddannelse",
       "institution": "Aalborg University",
       "campus": "Aalborg",
-      "educationForms": [
-        "EduForm1",
-        "eduForm2"
-      ],
-      "dropout_rate": 10.0,
+      "educationForms": {
+        "1": "Forelæsninger",
+        "2": "Selvstudie",
+        "3": "Klasseundervisning",
+        "4": "Projektarbejde",
+        "5": "Gruppearbejde"
+      },
+      "dropout_rate": 19.0,
       "completionTime": "3 år og 0 måneder",
       "applicants": {
         "2015": 3,
@@ -426,11 +489,14 @@
       "educationLevel": "Bacheloruddannelse",
       "institution": "Aalborg University",
       "campus": "Aalborg",
-      "educationForms": [
-        "EduForm1",
-        "eduForm2"
-      ],
-      "dropout_rate": 10.0,
+      "educationForms": {
+        "1": "Forelæsninger",
+        "2": "Projektarbejde",
+        "3": "Gruppearbejde",
+        "4": "Selvstudie",
+        "5": "Øvelsestimer"
+      },
+      "dropout_rate": 20.0,
       "completionTime": "3 år og 1 måneder",
       "applicants": {
         "2015": 3,
@@ -446,11 +512,14 @@
       "educationLevel": "Bacheloruddannelse",
       "institution": "Aalborg University",
       "campus": "Aalborg",
-      "educationForms": [
-        "EduForm1",
-        "eduForm2"
-      ],
-      "dropout_rate": 10.0,
+      "educationForms": {
+        "1": "-101",
+        "2": "-101",
+        "3": "-101",
+        "4": "-101",
+        "5": "-101"
+      },
+      "dropout_rate": 14.0,
       "completionTime": "3 år og 1 måneder",
       "applicants": {
         "2015": 3,
@@ -466,11 +535,14 @@
       "educationLevel": "Bacheloruddannelse",
       "institution": "Aalborg University",
       "campus": "Aalborg",
-      "educationForms": [
-        "EduForm1",
-        "eduForm2"
-      ],
-      "dropout_rate": 10.0,
+      "educationForms": {
+        "1": "Projektarbejde",
+        "2": "Gruppearbejde",
+        "3": "Forelæsninger",
+        "4": "Selvstudie",
+        "5": "Faglig vejledning fra din underviser"
+      },
+      "dropout_rate": 39.0,
       "completionTime": "2 år og 9 måneder",
       "applicants": {
         "2015": 3,
@@ -486,11 +558,14 @@
       "educationLevel": "Bacheloruddannelse",
       "institution": "Aalborg University",
       "campus": "Aalborg",
-      "educationForms": [
-        "EduForm1",
-        "eduForm2"
-      ],
-      "dropout_rate": 10.0,
+      "educationForms": {
+        "1": "-101",
+        "2": "-101",
+        "3": "-101",
+        "4": "-101",
+        "5": "-101"
+      },
+      "dropout_rate": 16.0,
       "completionTime": "2 år og 9 måneder",
       "applicants": {
         "2015": 3,
@@ -506,11 +581,14 @@
       "educationLevel": "Bacheloruddannelse",
       "institution": "Aalborg University",
       "campus": "København SV",
-      "educationForms": [
-        "EduForm1",
-        "eduForm2"
-      ],
-      "dropout_rate": 10.0,
+      "educationForms": {
+        "1": "Projektarbejde",
+        "2": "Gruppearbejde",
+        "3": "Selvstudie",
+        "4": "Klasseundervisning",
+        "5": "Forelæsninger"
+      },
+      "dropout_rate": 15.0,
       "completionTime": "2 år og 11 måneder",
       "applicants": {
         "2015": 3,
@@ -526,11 +604,14 @@
       "educationLevel": "Bacheloruddannelse",
       "institution": "Aalborg University",
       "campus": "Aalborg",
-      "educationForms": [
-        "EduForm1",
-        "eduForm2"
-      ],
-      "dropout_rate": 10.0,
+      "educationForms": {
+        "1": "-101",
+        "2": "-101",
+        "3": "-101",
+        "4": "-101",
+        "5": "-101"
+      },
+      "dropout_rate": 14.0,
       "completionTime": "2 år og 11 måneder",
       "applicants": {
         "2015": 3,
@@ -546,11 +627,14 @@
       "educationLevel": "Bacheloruddannelse",
       "institution": "Aalborg University",
       "campus": "Aalborg",
-      "educationForms": [
-        "EduForm1",
-        "eduForm2"
-      ],
-      "dropout_rate": 10.0,
+      "educationForms": {
+        "1": "Projektarbejde",
+        "2": "Gruppearbejde",
+        "3": "Forelæsninger",
+        "4": "Selvstudie",
+        "5": "Faglig vejledning fra din underviser"
+      },
+      "dropout_rate": 38.0,
       "completionTime": "2 år og 10 måneder",
       "applicants": {
         "2015": 3,
@@ -566,11 +650,14 @@
       "educationLevel": "Bacheloruddannelse",
       "institution": "Aalborg University",
       "campus": "Aalborg",
-      "educationForms": [
-        "EduForm1",
-        "eduForm2"
-      ],
-      "dropout_rate": 10.0,
+      "educationForms": {
+        "1": "Forelæsninger",
+        "2": "Projektarbejde",
+        "3": "Gruppearbejde",
+        "4": "Selvstudie",
+        "5": "Faglig vejledning fra din underviser"
+      },
+      "dropout_rate": 13.0,
       "completionTime": "1 år og 11 måneder",
       "applicants": {
         "2015": 3,
@@ -586,11 +673,14 @@
       "educationLevel": "Bacheloruddannelse",
       "institution": "Aalborg University",
       "campus": "Aalborg",
-      "educationForms": [
-        "EduForm1",
-        "eduForm2"
-      ],
-      "dropout_rate": 10.0,
+      "educationForms": {
+        "1": "-101",
+        "2": "-101",
+        "3": "-101",
+        "4": "-101",
+        "5": "-101"
+      },
+      "dropout_rate": -101.0,
       "completionTime": "-101",
       "applicants": {
         "2015": 3,
@@ -606,11 +696,14 @@
       "educationLevel": "Bacheloruddannelse",
       "institution": "Aalborg University",
       "campus": "Aalborg",
-      "educationForms": [
-        "EduForm1",
-        "eduForm2"
-      ],
-      "dropout_rate": 10.0,
+      "educationForms": {
+        "1": "Projektarbejde",
+        "2": "Gruppearbejde",
+        "3": "Forelæsninger",
+        "4": "Selvstudie",
+        "5": "Faglig vejledning fra din underviser"
+      },
+      "dropout_rate": 5.0,
       "completionTime": "-101",
       "applicants": {
         "2015": 3,
@@ -626,11 +719,14 @@
       "educationLevel": "Bacheloruddannelse",
       "institution": "Aalborg University",
       "campus": "Aalborg",
-      "educationForms": [
-        "EduForm1",
-        "eduForm2"
-      ],
-      "dropout_rate": 10.0,
+      "educationForms": {
+        "1": "Selvstudie",
+        "2": "Projektarbejde",
+        "3": "Forelæsninger",
+        "4": "Klasseundervisning",
+        "5": "Gruppearbejde"
+      },
+      "dropout_rate": 22.0,
       "completionTime": "2 år og 10 måneder",
       "applicants": {
         "2015": 3,
@@ -646,11 +742,14 @@
       "educationLevel": "Bacheloruddannelse",
       "institution": "Aalborg University",
       "campus": "Aalborg",
-      "educationForms": [
-        "EduForm1",
-        "eduForm2"
-      ],
-      "dropout_rate": 10.0,
+      "educationForms": {
+        "1": "Klasseundervisning",
+        "2": "Selvstudie",
+        "3": "Projektarbejde",
+        "4": "Gruppearbejde",
+        "5": "Forelæsninger"
+      },
+      "dropout_rate": -101.0,
       "completionTime": "2 år og 10 måneder",
       "applicants": {
         "2015": 3,
@@ -666,11 +765,14 @@
       "educationLevel": "Bacheloruddannelse",
       "institution": "Aalborg University",
       "campus": "Aalborg",
-      "educationForms": [
-        "EduForm1",
-        "eduForm2"
-      ],
-      "dropout_rate": 10.0,
+      "educationForms": {
+        "1": "-101",
+        "2": "-101",
+        "3": "-101",
+        "4": "-101",
+        "5": "-101"
+      },
+      "dropout_rate": -101.0,
       "completionTime": "2 år og 10 måneder",
       "applicants": {
         "2015": 3,
@@ -686,11 +788,14 @@
       "educationLevel": "Bacheloruddannelse",
       "institution": "Aalborg University",
       "campus": "Aalborg",
-      "educationForms": [
-        "EduForm1",
-        "eduForm2"
-      ],
-      "dropout_rate": 10.0,
+      "educationForms": {
+        "1": "-101",
+        "2": "-101",
+        "3": "-101",
+        "4": "-101",
+        "5": "-101"
+      },
+      "dropout_rate": 7.0,
       "completionTime": "2 år og 8 måneder",
       "applicants": {
         "2015": 3,
@@ -706,10 +811,13 @@
       "educationLevel": "Bacheloruddannelse",
       "institution": "Aalborg University",
       "campus": "Aalborg",
-      "educationForms": [
-        "EduForm1",
-        "eduForm2"
-      ],
+      "educationForms": {
+        "1": "Selvstudie",
+        "2": "Forelæsninger",
+        "3": "Klasseundervisning",
+        "4": "Gruppearbejde",
+        "5": "Projektarbejde"
+      },
       "dropout_rate": 10.0,
       "completionTime": "2 år og 10 måneder",
       "applicants": {
@@ -726,11 +834,14 @@
       "educationLevel": "Bacheloruddannelse",
       "institution": "Aalborg University",
       "campus": "Aalborg",
-      "educationForms": [
-        "EduForm1",
-        "eduForm2"
-      ],
-      "dropout_rate": 10.0,
+      "educationForms": {
+        "1": "-101",
+        "2": "-101",
+        "3": "-101",
+        "4": "-101",
+        "5": "-101"
+      },
+      "dropout_rate": 32.0,
       "completionTime": "2 år og 4 måneder",
       "applicants": {
         "2015": 3,
@@ -746,11 +857,14 @@
       "educationLevel": "Bacheloruddannelse",
       "institution": "Aalborg University",
       "campus": "Esbjerg",
-      "educationForms": [
-        "EduForm1",
-        "eduForm2"
-      ],
-      "dropout_rate": 10.0,
+      "educationForms": {
+        "1": "Projektarbejde",
+        "2": "Forelæsninger",
+        "3": "Gruppearbejde",
+        "4": "Øvelsestimer",
+        "5": "Selvstudie"
+      },
+      "dropout_rate": 48.0,
       "completionTime": "2 år og 9 måneder",
       "applicants": {
         "2015": 3,
@@ -766,11 +880,14 @@
       "educationLevel": "Bacheloruddannelse",
       "institution": "Aalborg University",
       "campus": "Aalborg",
-      "educationForms": [
-        "EduForm1",
-        "eduForm2"
-      ],
-      "dropout_rate": 10.0,
+      "educationForms": {
+        "1": "Projektarbejde",
+        "2": "Gruppearbejde",
+        "3": "Forelæsninger",
+        "4": "Øvelsestimer",
+        "5": "Selvstudie"
+      },
+      "dropout_rate": 0.0,
       "completionTime": "-101",
       "applicants": {
         "2015": 3,
@@ -786,11 +903,14 @@
       "educationLevel": "Bacheloruddannelse",
       "institution": "Aalborg University",
       "campus": "København SV",
-      "educationForms": [
-        "EduForm1",
-        "eduForm2"
-      ],
-      "dropout_rate": 10.0,
+      "educationForms": {
+        "1": "Projektarbejde",
+        "2": "Gruppearbejde",
+        "3": "Selvstudie",
+        "4": "Forelæsninger",
+        "5": "Klasseundervisning"
+      },
+      "dropout_rate": 13.0,
       "completionTime": "2 år og 9 måneder",
       "applicants": {
         "2015": 3,
@@ -806,11 +926,14 @@
       "educationLevel": "Bacheloruddannelse",
       "institution": "Aalborg University",
       "campus": "København SV",
-      "educationForms": [
-        "EduForm1",
-        "eduForm2"
-      ],
-      "dropout_rate": 10.0,
+      "educationForms": {
+        "1": "Projektarbejde",
+        "2": "Klasseundervisning",
+        "3": "Selvstudie",
+        "4": "Forelæsninger",
+        "5": "Gruppearbejde"
+      },
+      "dropout_rate": 20.0,
       "completionTime": "2 år og 9 måneder",
       "applicants": {
         "2015": 3,
@@ -826,11 +949,14 @@
       "educationLevel": "Bacheloruddannelse",
       "institution": "Aalborg University",
       "campus": "København SV",
-      "educationForms": [
-        "EduForm1",
-        "eduForm2"
-      ],
-      "dropout_rate": 10.0,
+      "educationForms": {
+        "1": "Gruppearbejde",
+        "2": "Projektarbejde",
+        "3": "Forelæsninger",
+        "4": "Klasseundervisning",
+        "5": "Selvstudie"
+      },
+      "dropout_rate": 9.0,
       "completionTime": "-101",
       "applicants": {
         "2015": 3,
@@ -846,11 +972,14 @@
       "educationLevel": "Bacheloruddannelse",
       "institution": "Aalborg University",
       "campus": "Esbjerg",
-      "educationForms": [
-        "EduForm1",
-        "eduForm2"
-      ],
-      "dropout_rate": 10.0,
+      "educationForms": {
+        "1": "-101",
+        "2": "-101",
+        "3": "-101",
+        "4": "-101",
+        "5": "-101"
+      },
+      "dropout_rate": 20.0,
       "completionTime": "2 år og 4 måneder",
       "applicants": {
         "2015": 3,
@@ -866,11 +995,14 @@
       "educationLevel": "Professionsbacheloruddannelse",
       "institution": "Aalborg University",
       "campus": "Esbjerg",
-      "educationForms": [
-        "EduForm1",
-        "eduForm2"
-      ],
-      "dropout_rate": 10.0,
+      "educationForms": {
+        "1": "-101",
+        "2": "-101",
+        "3": "-101",
+        "4": "-101",
+        "5": "-101"
+      },
+      "dropout_rate": 9.0,
       "completionTime": "-101",
       "applicants": {
         "2015": 3,
@@ -886,11 +1018,14 @@
       "educationLevel": "Bacheloruddannelse",
       "institution": "Aalborg University",
       "campus": "Aalborg",
-      "educationForms": [
-        "EduForm1",
-        "eduForm2"
-      ],
-      "dropout_rate": 10.0,
+      "educationForms": {
+        "1": "Projektarbejde",
+        "2": "Forelæsninger",
+        "3": "Gruppearbejde",
+        "4": "Selvstudie",
+        "5": "Øvelsestimer"
+      },
+      "dropout_rate": 23.0,
       "completionTime": "2 år og 11 måneder",
       "applicants": {
         "2015": 3,
@@ -906,11 +1041,14 @@
       "educationLevel": "Bacheloruddannelse",
       "institution": "Aalborg University",
       "campus": "Aalborg",
-      "educationForms": [
-        "EduForm1",
-        "eduForm2"
-      ],
-      "dropout_rate": 10.0,
+      "educationForms": {
+        "1": "Projektarbejde",
+        "2": "Gruppearbejde",
+        "3": "Forelæsninger",
+        "4": "Selvstudie",
+        "5": "Faglig vejledning fra din underviser"
+      },
+      "dropout_rate": 25.0,
       "completionTime": "-101",
       "applicants": {
         "2015": 3,
@@ -926,11 +1064,14 @@
       "educationLevel": "Bacheloruddannelse",
       "institution": "Aalborg University",
       "campus": "Aalborg",
-      "educationForms": [
-        "EduForm1",
-        "eduForm2"
-      ],
-      "dropout_rate": 10.0,
+      "educationForms": {
+        "1": "-101",
+        "2": "-101",
+        "3": "-101",
+        "4": "-101",
+        "5": "-101"
+      },
+      "dropout_rate": 27.0,
       "completionTime": "3 år og 0 måneder",
       "applicants": {
         "2015": 3,
@@ -946,11 +1087,14 @@
       "educationLevel": "Bacheloruddannelse",
       "institution": "Aalborg University",
       "campus": "København SV",
-      "educationForms": [
-        "EduForm1",
-        "eduForm2"
-      ],
-      "dropout_rate": 10.0,
+      "educationForms": {
+        "1": "Projektarbejde",
+        "2": "Gruppearbejde",
+        "3": "Selvstudie",
+        "4": "Forelæsninger",
+        "5": "Klasseundervisning"
+      },
+      "dropout_rate": 25.0,
       "completionTime": "3 år og 0 måneder",
       "applicants": {
         "2015": 3,
@@ -966,11 +1110,14 @@
       "educationLevel": "Bacheloruddannelse",
       "institution": "Aalborg University",
       "campus": "Aalborg",
-      "educationForms": [
-        "EduForm1",
-        "eduForm2"
-      ],
-      "dropout_rate": 10.0,
+      "educationForms": {
+        "1": "Selvstudie",
+        "2": "Gruppearbejde",
+        "3": "Forelæsninger",
+        "4": "Projektarbejde",
+        "5": "Øvelsestimer"
+      },
+      "dropout_rate": 6.0,
       "completionTime": "2 år og 7 måneder",
       "applicants": {
         "2015": 3,
@@ -986,11 +1133,14 @@
       "educationLevel": "Bacheloruddannelse",
       "institution": "Aalborg University",
       "campus": "Aalborg",
-      "educationForms": [
-        "EduForm1",
-        "eduForm2"
-      ],
-      "dropout_rate": 10.0,
+      "educationForms": {
+        "1": "Selvstudie",
+        "2": "Gruppearbejde",
+        "3": "Forelæsninger",
+        "4": "Projektarbejde",
+        "5": "Øvelsestimer"
+      },
+      "dropout_rate": 24.0,
       "completionTime": "3 år og 1 måneder",
       "applicants": {
         "2015": 3,
@@ -1006,11 +1156,14 @@
       "educationLevel": "Bacheloruddannelse",
       "institution": "Aalborg University",
       "campus": "Aalborg",
-      "educationForms": [
-        "EduForm1",
-        "eduForm2"
-      ],
-      "dropout_rate": 10.0,
+      "educationForms": {
+        "1": "-101",
+        "2": "-101",
+        "3": "-101",
+        "4": "-101",
+        "5": "-101"
+      },
+      "dropout_rate": -101.0,
       "completionTime": "-101",
       "applicants": {
         "2015": 3,
@@ -1026,11 +1179,14 @@
       "educationLevel": "Bacheloruddannelse",
       "institution": "Aalborg University",
       "campus": "Aalborg",
-      "educationForms": [
-        "EduForm1",
-        "eduForm2"
-      ],
-      "dropout_rate": 10.0,
+      "educationForms": {
+        "1": "-101",
+        "2": "-101",
+        "3": "-101",
+        "4": "-101",
+        "5": "-101"
+      },
+      "dropout_rate": 4.0,
       "completionTime": "3 år og 2 måneder",
       "applicants": {
         "2015": 3,
@@ -1046,11 +1202,14 @@
       "educationLevel": "Bacheloruddannelse",
       "institution": "Aalborg University",
       "campus": "Aalborg",
-      "educationForms": [
-        "EduForm1",
-        "eduForm2"
-      ],
-      "dropout_rate": 10.0,
+      "educationForms": {
+        "1": "Klasseundervisning",
+        "2": "Projektarbejde",
+        "3": "Selvstudie",
+        "4": "Øvelsestimer",
+        "5": "Forelæsninger"
+      },
+      "dropout_rate": 7.0,
       "completionTime": "2 år og 10 måneder",
       "applicants": {
         "2015": 3,
@@ -1066,11 +1225,14 @@
       "educationLevel": "Bacheloruddannelse",
       "institution": "Aalborg University",
       "campus": "Aalborg",
-      "educationForms": [
-        "EduForm1",
-        "eduForm2"
-      ],
-      "dropout_rate": 10.0,
+      "educationForms": {
+        "1": "-101",
+        "2": "-101",
+        "3": "-101",
+        "4": "-101",
+        "5": "-101"
+      },
+      "dropout_rate": -101.0,
       "completionTime": "2 år og 11 måneder",
       "applicants": {
         "2015": 3,
@@ -1086,11 +1248,14 @@
       "educationLevel": "Bacheloruddannelse",
       "institution": "Aalborg University",
       "campus": "Aalborg",
-      "educationForms": [
-        "EduForm1",
-        "eduForm2"
-      ],
-      "dropout_rate": 10.0,
+      "educationForms": {
+        "1": "Projektarbejde",
+        "2": "Gruppearbejde",
+        "3": "Forelæsninger",
+        "4": "Selvstudie",
+        "5": "Klasseundervisning"
+      },
+      "dropout_rate": 24.0,
       "completionTime": "-101",
       "applicants": {
         "2015": 3,
@@ -1106,11 +1271,14 @@
       "educationLevel": "Bacheloruddannelse",
       "institution": "Aalborg University",
       "campus": "Aalborg",
-      "educationForms": [
-        "EduForm1",
-        "eduForm2"
-      ],
-      "dropout_rate": 10.0,
+      "educationForms": {
+        "1": "Projektarbejde",
+        "2": "Forelæsninger",
+        "3": "Selvstudie",
+        "4": "Gruppearbejde",
+        "5": "Øvelsestimer"
+      },
+      "dropout_rate": 19.0,
       "completionTime": "2 år og 5 måneder",
       "applicants": {
         "2015": 3,
@@ -1126,11 +1294,14 @@
       "educationLevel": "Bacheloruddannelse",
       "institution": "Aalborg University",
       "campus": "Aalborg",
-      "educationForms": [
-        "EduForm1",
-        "eduForm2"
-      ],
-      "dropout_rate": 10.0,
+      "educationForms": {
+        "1": "Projektarbejde",
+        "2": "Forelæsninger",
+        "3": "Gruppearbejde",
+        "4": "Selvstudie",
+        "5": "Faglig vejledning fra din underviser"
+      },
+      "dropout_rate": 21.0,
       "completionTime": "2 år og 10 måneder",
       "applicants": {
         "2015": 3,
@@ -1146,11 +1317,14 @@
       "educationLevel": "Bacheloruddannelse",
       "institution": "Aalborg University",
       "campus": "Aalborg",
-      "educationForms": [
-        "EduForm1",
-        "eduForm2"
-      ],
-      "dropout_rate": 10.0,
+      "educationForms": {
+        "1": "Selvstudie",
+        "2": "Forelæsninger",
+        "3": "Projektarbejde",
+        "4": "Klasseundervisning",
+        "5": "Gruppearbejde"
+      },
+      "dropout_rate": 8.0,
       "completionTime": "2 år og 10 måneder",
       "applicants": {
         "2015": 3,
@@ -1166,11 +1340,14 @@
       "educationLevel": "Bacheloruddannelse",
       "institution": "Aalborg University",
       "campus": "Aalborg",
-      "educationForms": [
-        "EduForm1",
-        "eduForm2"
-      ],
-      "dropout_rate": 10.0,
+      "educationForms": {
+        "1": "Projektarbejde",
+        "2": "Gruppearbejde",
+        "3": "Forelæsninger",
+        "4": "Selvstudie",
+        "5": "Øvelsestimer"
+      },
+      "dropout_rate": 22.0,
       "completionTime": "-101",
       "applicants": {
         "2015": 3,
@@ -1186,11 +1363,14 @@
       "educationLevel": "Bacheloruddannelse",
       "institution": "Aalborg University",
       "campus": "Aalborg",
-      "educationForms": [
-        "EduForm1",
-        "eduForm2"
-      ],
-      "dropout_rate": 10.0,
+      "educationForms": {
+        "1": "-101",
+        "2": "-101",
+        "3": "-101",
+        "4": "-101",
+        "5": "-101"
+      },
+      "dropout_rate": 14.0,
       "completionTime": "2 år og 11 måneder",
       "applicants": {
         "2015": 3,
@@ -1206,11 +1386,14 @@
       "educationLevel": "Professionsbacheloruddannelse",
       "institution": "Aalborg University",
       "campus": "Aalborg",
-      "educationForms": [
-        "EduForm1",
-        "eduForm2"
-      ],
-      "dropout_rate": 10.0,
+      "educationForms": {
+        "1": "Forelæsninger",
+        "2": "Selvstudie",
+        "3": "Projektarbejde",
+        "4": "Gruppearbejde",
+        "5": "Klasseundervisning"
+      },
+      "dropout_rate": 17.0,
       "completionTime": "3 år og 6 måneder",
       "applicants": {
         "2015": 3,
@@ -1226,11 +1409,14 @@
       "educationLevel": "Bacheloruddannelse",
       "institution": "Aalborg University",
       "campus": "Aalborg",
-      "educationForms": [
-        "EduForm1",
-        "eduForm2"
-      ],
-      "dropout_rate": 10.0,
+      "educationForms": {
+        "1": "Projektarbejde",
+        "2": "Forelæsninger",
+        "3": "Selvstudie",
+        "4": "Øvelsestimer",
+        "5": "Gruppearbejde"
+      },
+      "dropout_rate": 16.0,
       "completionTime": "2 år og 10 måneder",
       "applicants": {
         "2015": 3,
@@ -1246,11 +1432,14 @@
       "educationLevel": "Bacheloruddannelse",
       "institution": "Aalborg University",
       "campus": "Aalborg",
-      "educationForms": [
-        "EduForm1",
-        "eduForm2"
-      ],
-      "dropout_rate": 10.0,
+      "educationForms": {
+        "1": "Projektarbejde",
+        "2": "Gruppearbejde",
+        "3": "Forelæsninger",
+        "4": "Selvstudie",
+        "5": "Øvelsestimer"
+      },
+      "dropout_rate": 33.0,
       "completionTime": "2 år og 9 måneder",
       "applicants": {
         "2015": 3,
@@ -1266,11 +1455,14 @@
       "educationLevel": "Bacheloruddannelse",
       "institution": "Aalborg University",
       "campus": "Aalborg",
-      "educationForms": [
-        "EduForm1",
-        "eduForm2"
-      ],
-      "dropout_rate": 10.0,
+      "educationForms": {
+        "1": "Selvstudie",
+        "2": "Projektarbejde",
+        "3": "Klasseundervisning",
+        "4": "Gruppearbejde",
+        "5": "Faglig vejledning fra din underviser"
+      },
+      "dropout_rate": 31.0,
       "completionTime": "3 år og 1 måneder",
       "applicants": {
         "2015": 3,
@@ -1286,11 +1478,14 @@
       "educationLevel": "Bacheloruddannelse",
       "institution": "Aalborg University",
       "campus": "Aalborg",
-      "educationForms": [
-        "EduForm1",
-        "eduForm2"
-      ],
-      "dropout_rate": 10.0,
+      "educationForms": {
+        "1": "Projektarbejde",
+        "2": "Gruppearbejde",
+        "3": "Forelæsninger",
+        "4": "Selvstudie",
+        "5": "Faglig vejledning fra din underviser"
+      },
+      "dropout_rate": 42.0,
       "completionTime": "2 år og 9 måneder",
       "applicants": {
         "2015": 3,
@@ -1306,11 +1501,14 @@
       "educationLevel": "Bacheloruddannelse",
       "institution": "Aalborg University",
       "campus": "København SV",
-      "educationForms": [
-        "EduForm1",
-        "eduForm2"
-      ],
-      "dropout_rate": 10.0,
+      "educationForms": {
+        "1": "Projektarbejde",
+        "2": "Forelæsninger",
+        "3": "Gruppearbejde",
+        "4": "Selvstudie",
+        "5": "Øvelsestimer"
+      },
+      "dropout_rate": 16.0,
       "completionTime": "-101",
       "applicants": {
         "2015": 3,
@@ -1326,11 +1524,14 @@
       "educationLevel": "Bacheloruddannelse",
       "institution": "Aalborg University",
       "campus": "København SV",
-      "educationForms": [
-        "EduForm1",
-        "eduForm2"
-      ],
-      "dropout_rate": 10.0,
+      "educationForms": {
+        "1": "Projektarbejde",
+        "2": "Selvstudie",
+        "3": "Forelæsninger",
+        "4": "Gruppearbejde",
+        "5": "Klasseundervisning"
+      },
+      "dropout_rate": 18.0,
       "completionTime": "2 år og 10 måneder",
       "applicants": {
         "2015": 3,
@@ -1346,11 +1547,14 @@
       "educationLevel": "Bacheloruddannelse",
       "institution": "Aalborg University",
       "campus": "Aalborg",
-      "educationForms": [
-        "EduForm1",
-        "eduForm2"
-      ],
-      "dropout_rate": 10.0,
+      "educationForms": {
+        "1": "-101",
+        "2": "-101",
+        "3": "-101",
+        "4": "-101",
+        "5": "-101"
+      },
+      "dropout_rate": 37.0,
       "completionTime": "2 år og 8 måneder",
       "applicants": {
         "2015": 3,
@@ -1366,11 +1570,14 @@
       "educationLevel": "Bacheloruddannelse",
       "institution": "Aalborg University",
       "campus": "Aalborg",
-      "educationForms": [
-        "EduForm1",
-        "eduForm2"
-      ],
-      "dropout_rate": 10.0,
+      "educationForms": {
+        "1": "Projektarbejde",
+        "2": "Forelæsninger",
+        "3": "Selvstudie",
+        "4": "Gruppearbejde",
+        "5": "Faglig vejledning fra din underviser"
+      },
+      "dropout_rate": 15.0,
       "completionTime": "2 år og 10 måneder",
       "applicants": {
         "2015": 3,

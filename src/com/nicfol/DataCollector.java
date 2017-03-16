@@ -22,7 +22,7 @@ public class DataCollector {
         String ugZoomLine = ugZoomReader.readNextLine();
         String firstLineArr[] = ugZoomLine.split(";");
         for(int i = 0; i < firstLineArr.length-1; i++) {
-            //System.out.println("   | (" + i + ") " + firstLineArr[i]);
+            System.out.println("   | (" + i + ") " + firstLineArr[i]);
         }
 
 
@@ -39,15 +39,21 @@ public class DataCollector {
             String educationLevel = ugSplitArr[3];
             String institution = "Aalborg University";
             String campus = ugSplitArr[4];
-            String[] educationForms = {"EduForm1", "eduForm2"};
-            float dropout_rate = 10.0f;
+
+            Map<Integer,String> educationForms = new TreeMap<>();
+
+            float dropout_rate = Float.valueOf(ugSplitArr[6]);
             String completionTime = ugSplitArr[5];
-            //String[][] similarEducations;
-            //String[][] possibleJobs;
 
             Map<Integer,Integer> applicants = new TreeMap<>();
             Map<Integer,Integer> intake = new TreeMap<>();
             Map<Integer,Integer> grades = new TreeMap<>();
+
+            educationForms.put(5, ugSplitArr[12]);
+            educationForms.put(4, ugSplitArr[11]);
+            educationForms.put(3, ugSplitArr[10]);
+            educationForms.put(2, ugSplitArr[9]);
+            educationForms.put(1, ugSplitArr[8]);
 
 
 

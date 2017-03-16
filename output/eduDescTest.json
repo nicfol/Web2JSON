@@ -1,0 +1,1385 @@
+{
+  "Bacheloruddannelse": {
+    "Anvendt filosofi": {
+      "name": "Anvendt filosofi",
+      "ugLink": "www.ug.dk/uddannelser/universitetsuddannelser/bacheloruddannelser/humanistiskebacheloruddannelser/oevrigehumaniora/anvendt-filosofi",
+      "educationLevel": "Bacheloruddannelse",
+      "institution": "Aalborg University",
+      "campus": "Aalborg",
+      "educationForms": [
+        "EduForm1",
+        "eduForm2"
+      ],
+      "dropout_rate": 10.0,
+      "completionTime": "2 år og 10 måneder",
+      "applicants": {
+        "2015": 3,
+        "2016": 2,
+        "2017": 1
+      },
+      "intake": {},
+      "grades": {}
+    },
+    "Arkitektur og Design": {
+      "name": "Arkitektur og Design",
+      "ugLink": "www.ug.dk/uddannelser/universitetsuddannelser/bacheloruddannelser/tekniskvidenskabeligebacheloruddannelser/civilingenioeruddannelser/arkitektur-og-design",
+      "educationLevel": "Bacheloruddannelse",
+      "institution": "Aalborg University",
+      "campus": "Aalborg",
+      "educationForms": [
+        "EduForm1",
+        "eduForm2"
+      ],
+      "dropout_rate": 10.0,
+      "completionTime": "2 år og 9 måneder",
+      "applicants": {
+        "2015": 3,
+        "2016": 2,
+        "2017": 1
+      },
+      "intake": {},
+      "grades": {}
+    },
+    "Art and Technology": {
+      "name": "Art and Technology",
+      "ugLink": "www.ug.dk/uddannelser/universitetsuddannelser/bacheloruddannelser/humanistiskebacheloruddannelser/oevrigehumaniora/oplevelsesteknologi",
+      "educationLevel": "Bacheloruddannelse",
+      "institution": "Aalborg University",
+      "campus": "Aalborg",
+      "educationForms": [
+        "EduForm1",
+        "eduForm2"
+      ],
+      "dropout_rate": 10.0,
+      "completionTime": "2 år og 10 måneder",
+      "applicants": {
+        "2015": 3,
+        "2016": 2,
+        "2017": 1
+      },
+      "intake": {},
+      "grades": {}
+    },
+    "Biologi": {
+      "name": "Biologi",
+      "ugLink": "www.ug.dk/uddannelser/universitetsuddannelser/bacheloruddannelser/naturvidenskabeligebacheloruddannelser/biologigeografigeologimv/biologi",
+      "educationLevel": "Bacheloruddannelse",
+      "institution": "Aalborg University",
+      "campus": "Aalborg",
+      "educationForms": [
+        "EduForm1",
+        "eduForm2"
+      ],
+      "dropout_rate": 10.0,
+      "completionTime": "2 år og 11 måneder",
+      "applicants": {
+        "2015": 3,
+        "2016": 2,
+        "2017": 1
+      },
+      "intake": {},
+      "grades": {}
+    },
+    "Bioteknologi": {
+      "name": "Bioteknologi",
+      "ugLink": "www.ug.dk/uddannelser/universitetsuddannelser/bacheloruddannelser/tekniskvidenskabeligebacheloruddannelser/civilingenioeruddannelser/bioteknologi",
+      "educationLevel": "Bacheloruddannelse",
+      "institution": "Aalborg University",
+      "campus": "Aalborg",
+      "educationForms": [
+        "EduForm1",
+        "eduForm2"
+      ],
+      "dropout_rate": 10.0,
+      "completionTime": "2 år og 9 måneder",
+      "applicants": {
+        "2015": 3,
+        "2016": 2,
+        "2017": 1
+      },
+      "intake": {},
+      "grades": {}
+    },
+    "By-, energi- og miljøplanlægning": {
+      "name": "By-, energi- og miljøplanlægning",
+      "ugLink": "www.ug.dk/uddannelser/universitetsuddannelser/bacheloruddannelser/tekniskvidenskabeligebacheloruddannelser/civilingenioeruddannelser/energi-og-miljoeplanlaegning",
+      "educationLevel": "Bacheloruddannelse",
+      "institution": "Aalborg University",
+      "campus": "København SV",
+      "educationForms": [
+        "EduForm1",
+        "eduForm2"
+      ],
+      "dropout_rate": 10.0,
+      "completionTime": "2 år og 9 måneder",
+      "applicants": {
+        "2015": 3,
+        "2016": 2,
+        "2017": 1
+      },
+      "intake": {},
+      "grades": {}
+    },
+    "Byggeri og anlæg": {
+      "name": "Byggeri og anlæg",
+      "ugLink": "www.ug.dk/uddannelser/universitetsuddannelser/bacheloruddannelser/tekniskvidenskabeligebacheloruddannelser/civilingenioeruddannelser/byggeri-og-anlaeg",
+      "educationLevel": "Bacheloruddannelse",
+      "institution": "Aalborg University",
+      "campus": "Esbjerg",
+      "educationForms": [
+        "EduForm1",
+        "eduForm2"
+      ],
+      "dropout_rate": 10.0,
+      "completionTime": "2 år og 6 måneder",
+      "applicants": {
+        "2015": 3,
+        "2016": 2,
+        "2017": 1
+      },
+      "intake": {},
+      "grades": {}
+    },
+    "Byggeri og anlæg, diplomingeniør": {
+      "name": "Byggeri og anlæg, diplomingeniør",
+      "ugLink": "www.ug.dk/uddannelser/professionsbacheloruddannelser/tekniskeogteknologiskeudd/diplomingenioer-bygning",
+      "educationLevel": "Professionsbacheloruddannelse",
+      "institution": "Aalborg University",
+      "campus": "Aalborg",
+      "educationForms": [
+        "EduForm1",
+        "eduForm2"
+      ],
+      "dropout_rate": 10.0,
+      "completionTime": "2 år og 7 måneder",
+      "applicants": {
+        "2015": 3,
+        "2016": 2,
+        "2017": 1
+      },
+      "intake": {},
+      "grades": {}
+    },
+    "Byggeri og anlæg, diplomingeniør, Esbjerg": {
+      "name": "Byggeri og anlæg, diplomingeniør, Esbjerg",
+      "ugLink": "www.ug.dk/uddannelser/professionsbacheloruddannelser/tekniskeogteknologiskeudd/diplomingenioer-bygning",
+      "educationLevel": "Professionsbacheloruddannelse",
+      "institution": "Aalborg University",
+      "campus": "Esbjerg",
+      "educationForms": [
+        "EduForm1",
+        "eduForm2"
+      ],
+      "dropout_rate": 10.0,
+      "completionTime": "2 år og 7 måneder",
+      "applicants": {
+        "2015": 3,
+        "2016": 2,
+        "2017": 1
+      },
+      "intake": {},
+      "grades": {}
+    },
+    "Bæredygtig energiteknik": {
+      "name": "Bæredygtig energiteknik",
+      "ugLink": "www.ug.dk/uddannelser/professionsbacheloruddannelser/tekniskeogteknologiskeudd/diplomingenioer-baeredygtig-energiteknik",
+      "educationLevel": "Professionsbacheloruddannelse",
+      "institution": "Aalborg University",
+      "campus": "Aalborg",
+      "educationForms": [
+        "EduForm1",
+        "eduForm2"
+      ],
+      "dropout_rate": 10.0,
+      "completionTime": "1 år og 11 måneder",
+      "applicants": {
+        "2015": 3,
+        "2016": 2,
+        "2017": 1
+      },
+      "intake": {},
+      "grades": {}
+    },
+    "Bæredygtigt Design": {
+      "name": "Bæredygtigt Design",
+      "ugLink": "www.ug.dk/uddannelser/universitetsuddannelser/bacheloruddannelser/tekniskvidenskabeligebacheloruddannelser/civilingenioeruddannelser/baeredygtigt-design",
+      "educationLevel": "Bacheloruddannelse",
+      "institution": "Aalborg University",
+      "campus": "København SV",
+      "educationForms": [
+        "EduForm1",
+        "eduForm2"
+      ],
+      "dropout_rate": 10.0,
+      "completionTime": "-101",
+      "applicants": {
+        "2015": 3,
+        "2016": 2,
+        "2017": 1
+      },
+      "intake": {},
+      "grades": {}
+    },
+    "Dansk": {
+      "name": "Dansk",
+      "ugLink": "www.ug.dk/uddannelser/universitetsuddannelser/bacheloruddannelser/humanistiskebacheloruddannelser/oevrigehumaniora/dansk",
+      "educationLevel": "Bacheloruddannelse",
+      "institution": "Aalborg University",
+      "campus": "Aalborg",
+      "educationForms": [
+        "EduForm1",
+        "eduForm2"
+      ],
+      "dropout_rate": 10.0,
+      "completionTime": "2 år og 11 måneder",
+      "applicants": {
+        "2015": 3,
+        "2016": 2,
+        "2017": 1
+      },
+      "intake": {},
+      "grades": {}
+    },
+    "Datalogi": {
+      "name": "Datalogi",
+      "ugLink": "www.ug.dk/uddannelser/universitetsuddannelser/bacheloruddannelser/naturvidenskabeligebacheloruddannelser/matematikfysikkemiogdatalogi/datalogi",
+      "educationLevel": "Bacheloruddannelse",
+      "institution": "Aalborg University",
+      "campus": "Aalborg",
+      "educationForms": [
+        "EduForm1",
+        "eduForm2"
+      ],
+      "dropout_rate": 10.0,
+      "completionTime": "3 år og 0 måneder",
+      "applicants": {
+        "2015": 3,
+        "2016": 2,
+        "2017": 1
+      },
+      "intake": {},
+      "grades": {}
+    },
+    "Eksportteknologi, diplomingeniør": {
+      "name": "Eksportteknologi, diplomingeniør",
+      "ugLink": "www.ug.dk/uddannelser/professionsbacheloruddannelser/tekniskeogteknologiskeudd/diplomingenioer-eksportteknologi",
+      "educationLevel": "Professionsbacheloruddannelse",
+      "institution": "Aalborg University",
+      "campus": "Aalborg",
+      "educationForms": [
+        "EduForm1",
+        "eduForm2"
+      ],
+      "dropout_rate": 10.0,
+      "completionTime": "1 år og 8 måneder",
+      "applicants": {
+        "2015": 3,
+        "2016": 2,
+        "2017": 1
+      },
+      "intake": {},
+      "grades": {}
+    },
+    "Electronics and Computer Engineering": {
+      "name": "Electronics and Computer Engineering",
+      "ugLink": "www.ug.dk/uddannelser/universitetsuddannelser/bacheloruddannelser/tekniskvidenskabeligebacheloruddannelser/civilingenioeruddannelser/elektronik-og-datateknik",
+      "educationLevel": "Bacheloruddannelse",
+      "institution": "Aalborg University",
+      "campus": "Esbjerg",
+      "educationForms": [
+        "EduForm1",
+        "eduForm2"
+      ],
+      "dropout_rate": 10.0,
+      "completionTime": "-101",
+      "applicants": {
+        "2015": 3,
+        "2016": 2,
+        "2017": 1
+      },
+      "intake": {},
+      "grades": {}
+    },
+    "Elektronik og it": {
+      "name": "Elektronik og it",
+      "ugLink": "www.ug.dk/uddannelser/universitetsuddannelser/bacheloruddannelser/tekniskvidenskabeligebacheloruddannelser/civilingenioeruddannelser/elektronik-og-it",
+      "educationLevel": "Bacheloruddannelse",
+      "institution": "Aalborg University",
+      "campus": "Aalborg",
+      "educationForms": [
+        "EduForm1",
+        "eduForm2"
+      ],
+      "dropout_rate": 10.0,
+      "completionTime": "2 år og 7 måneder",
+      "applicants": {
+        "2015": 3,
+        "2016": 2,
+        "2017": 1
+      },
+      "intake": {},
+      "grades": {}
+    },
+    "Elektronik, Diplomingeniør": {
+      "name": "Elektronik, Diplomingeniør",
+      "ugLink": "www.ug.dk/uddannelser/professionsbacheloruddannelser/tekniskeogteknologiskeudd/diplomingenioer-elektronik",
+      "educationLevel": "Professionsbacheloruddannelse",
+      "institution": "Aalborg University",
+      "campus": "Esbjerg",
+      "educationForms": [
+        "EduForm1",
+        "eduForm2"
+      ],
+      "dropout_rate": 10.0,
+      "completionTime": "2 år og 2 måneder",
+      "applicants": {
+        "2015": 3,
+        "2016": 2,
+        "2017": 1
+      },
+      "intake": {},
+      "grades": {}
+    },
+    "Energi": {
+      "name": "Energi",
+      "ugLink": "www.ug.dk/uddannelser/universitetsuddannelser/bacheloruddannelser/tekniskvidenskabeligebacheloruddannelser/civilingenioeruddannelser/energi",
+      "educationLevel": "Bacheloruddannelse",
+      "institution": "Aalborg University",
+      "campus": "Esbjerg",
+      "educationForms": [
+        "EduForm1",
+        "eduForm2"
+      ],
+      "dropout_rate": 10.0,
+      "completionTime": "2 år og 9 måneder",
+      "applicants": {
+        "2015": 3,
+        "2016": 2,
+        "2017": 1
+      },
+      "intake": {},
+      "grades": {}
+    },
+    "Engelsk": {
+      "name": "Engelsk",
+      "ugLink": "www.ug.dk/uddannelser/universitetsuddannelser/bacheloruddannelser/humanistiskebacheloruddannelser/oevrigehumaniora/engelsk-sprog-og-internationale-studier-sis",
+      "educationLevel": "Bacheloruddannelse",
+      "institution": "Aalborg University",
+      "campus": "Aalborg",
+      "educationForms": [
+        "EduForm1",
+        "eduForm2"
+      ],
+      "dropout_rate": 10.0,
+      "completionTime": "2 år og 11 måneder",
+      "applicants": {
+        "2015": 3,
+        "2016": 2,
+        "2017": 1
+      },
+      "intake": {},
+      "grades": {}
+    },
+    "Erhvervsøkonomi, HA": {
+      "name": "Erhvervsøkonomi, HA",
+      "ugLink": "www.ug.dk/uddannelser/universitetsuddannelser/bacheloruddannelser/samfundsvidenskabeligebacheloruddannelser/erhvervsoekonomi/erhvervsoekonomi-ha",
+      "educationLevel": "Bacheloruddannelse",
+      "institution": "Aalborg University",
+      "campus": "Aalborg",
+      "educationForms": [
+        "EduForm1",
+        "eduForm2"
+      ],
+      "dropout_rate": 10.0,
+      "completionTime": "2 år og 4 måneder",
+      "applicants": {
+        "2015": 3,
+        "2016": 2,
+        "2017": 1
+      },
+      "intake": {},
+      "grades": {}
+    },
+    "Erhvervsøkonomi-jura, HA (jur.)": {
+      "name": "Erhvervsøkonomi-jura, HA (jur.)",
+      "ugLink": "www.ug.dk/uddannelser/universitetsuddannelser/bacheloruddannelser/samfundsvidenskabeligebacheloruddannelser/erhvervsoekonomi/erhvervsoekonomi-og-erhvervsjura",
+      "educationLevel": "Bacheloruddannelse",
+      "institution": "Aalborg University",
+      "campus": "Aalborg",
+      "educationForms": [
+        "EduForm1",
+        "eduForm2"
+      ],
+      "dropout_rate": 10.0,
+      "completionTime": "3 år og 0 måneder",
+      "applicants": {
+        "2015": 3,
+        "2016": 2,
+        "2017": 1
+      },
+      "intake": {},
+      "grades": {}
+    },
+    "Fysik": {
+      "name": "Fysik",
+      "ugLink": "www.ug.dk/uddannelser/universitetsuddannelser/bacheloruddannelser/naturvidenskabeligebacheloruddannelser/matematikfysikkemiogdatalogi/fysik",
+      "educationLevel": "Bacheloruddannelse",
+      "institution": "Aalborg University",
+      "campus": "Aalborg",
+      "educationForms": [
+        "EduForm1",
+        "eduForm2"
+      ],
+      "dropout_rate": 10.0,
+      "completionTime": "3 år og 1 måneder",
+      "applicants": {
+        "2015": 3,
+        "2016": 2,
+        "2017": 1
+      },
+      "intake": {},
+      "grades": {}
+    },
+    "Geografi": {
+      "name": "Geografi",
+      "ugLink": "www.ug.dk/uddannelser/universitetsuddannelser/bacheloruddannelser/naturvidenskabeligebacheloruddannelser/biologigeografigeologimv/geografi",
+      "educationLevel": "Bacheloruddannelse",
+      "institution": "Aalborg University",
+      "campus": "Aalborg",
+      "educationForms": [
+        "EduForm1",
+        "eduForm2"
+      ],
+      "dropout_rate": 10.0,
+      "completionTime": "3 år og 1 måneder",
+      "applicants": {
+        "2015": 3,
+        "2016": 2,
+        "2017": 1
+      },
+      "intake": {},
+      "grades": {}
+    },
+    "Globale Forretningssystemer": {
+      "name": "Globale Forretningssystemer",
+      "ugLink": "www.ug.dk/uddannelser/universitetsuddannelser/bacheloruddannelser/tekniskvidenskabeligebacheloruddannelser/civilingenioeruddannelser/globale-forretningssystemer",
+      "educationLevel": "Bacheloruddannelse",
+      "institution": "Aalborg University",
+      "campus": "Aalborg",
+      "educationForms": [
+        "EduForm1",
+        "eduForm2"
+      ],
+      "dropout_rate": 10.0,
+      "completionTime": "2 år og 9 måneder",
+      "applicants": {
+        "2015": 3,
+        "2016": 2,
+        "2017": 1
+      },
+      "intake": {},
+      "grades": {}
+    },
+    "Historie": {
+      "name": "Historie",
+      "ugLink": "www.ug.dk/uddannelser/universitetsuddannelser/bacheloruddannelser/humanistiskebacheloruddannelser/oevrigehumaniora/historie",
+      "educationLevel": "Bacheloruddannelse",
+      "institution": "Aalborg University",
+      "campus": "Aalborg",
+      "educationForms": [
+        "EduForm1",
+        "eduForm2"
+      ],
+      "dropout_rate": 10.0,
+      "completionTime": "2 år og 9 måneder",
+      "applicants": {
+        "2015": 3,
+        "2016": 2,
+        "2017": 1
+      },
+      "intake": {},
+      "grades": {}
+    },
+    "IT, Communication and New Media": {
+      "name": "IT, Communication and New Media",
+      "ugLink": "www.ug.dk/uddannelser/universitetsuddannelser/bacheloruddannelser/tekniskvidenskabeligebacheloruddannelser/civilingenioeruddannelser/it-kommunikations-og-medieteknologi",
+      "educationLevel": "Bacheloruddannelse",
+      "institution": "Aalborg University",
+      "campus": "København SV",
+      "educationForms": [
+        "EduForm1",
+        "eduForm2"
+      ],
+      "dropout_rate": 10.0,
+      "completionTime": "2 år og 11 måneder",
+      "applicants": {
+        "2015": 3,
+        "2016": 2,
+        "2017": 1
+      },
+      "intake": {},
+      "grades": {}
+    },
+    "Idræt": {
+      "name": "Idræt",
+      "ugLink": "www.ug.dk/uddannelser/universitetsuddannelser/bacheloruddannelser/naturvidenskabeligebacheloruddannelser/oevrigenaturvidenskab/idraet",
+      "educationLevel": "Bacheloruddannelse",
+      "institution": "Aalborg University",
+      "campus": "Aalborg",
+      "educationForms": [
+        "EduForm1",
+        "eduForm2"
+      ],
+      "dropout_rate": 10.0,
+      "completionTime": "2 år og 11 måneder",
+      "applicants": {
+        "2015": 3,
+        "2016": 2,
+        "2017": 1
+      },
+      "intake": {},
+      "grades": {}
+    },
+    "Informatik": {
+      "name": "Informatik",
+      "ugLink": "www.ug.dk/uddannelser/universitetsuddannelser/bacheloruddannelser/naturvidenskabeligebacheloruddannelser/matematikfysikkemiogdatalogi/informatik",
+      "educationLevel": "Bacheloruddannelse",
+      "institution": "Aalborg University",
+      "campus": "Aalborg",
+      "educationForms": [
+        "EduForm1",
+        "eduForm2"
+      ],
+      "dropout_rate": 10.0,
+      "completionTime": "2 år og 10 måneder",
+      "applicants": {
+        "2015": 3,
+        "2016": 2,
+        "2017": 1
+      },
+      "intake": {},
+      "grades": {}
+    },
+    "Informationsteknologi": {
+      "name": "Informationsteknologi",
+      "ugLink": "www.ug.dk/uddannelser/universitetsuddannelser/bacheloruddannelser/naturvidenskabeligebacheloruddannelser/matematikfysikkemiogdatalogi/informationsteknologi",
+      "educationLevel": "Bacheloruddannelse",
+      "institution": "Aalborg University",
+      "campus": "Aalborg",
+      "educationForms": [
+        "EduForm1",
+        "eduForm2"
+      ],
+      "dropout_rate": 10.0,
+      "completionTime": "1 år og 11 måneder",
+      "applicants": {
+        "2015": 3,
+        "2016": 2,
+        "2017": 1
+      },
+      "intake": {},
+      "grades": {}
+    },
+    "Innovation og Digitalisering": {
+      "name": "Innovation og Digitalisering",
+      "ugLink": "www.ug.dk/uddannelser/universitetsuddannelser/bacheloruddannelser/samfundsvidenskabeligebacheloruddannelser/oevrigesamfundsvidenskab/innovation-og-digitalisering",
+      "educationLevel": "Bacheloruddannelse",
+      "institution": "Aalborg University",
+      "campus": "Aalborg",
+      "educationForms": [
+        "EduForm1",
+        "eduForm2"
+      ],
+      "dropout_rate": 10.0,
+      "completionTime": "-101",
+      "applicants": {
+        "2015": 3,
+        "2016": 2,
+        "2017": 1
+      },
+      "intake": {},
+      "grades": {}
+    },
+    "Interaktionsdesign": {
+      "name": "Interaktionsdesign",
+      "ugLink": "www.ug.dk/uddannelser/universitetsuddannelser/bacheloruddannelser/naturvidenskabeligebacheloruddannelser/oevrigenaturvidenskab/interaktionsdesign",
+      "educationLevel": "Bacheloruddannelse",
+      "institution": "Aalborg University",
+      "campus": "Aalborg",
+      "educationForms": [
+        "EduForm1",
+        "eduForm2"
+      ],
+      "dropout_rate": 10.0,
+      "completionTime": "-101",
+      "applicants": {
+        "2015": 3,
+        "2016": 2,
+        "2017": 1
+      },
+      "intake": {},
+      "grades": {}
+    },
+    "International Virksomhedskommunikation i Engelsk": {
+      "name": "International Virksomhedskommunikation i Engelsk",
+      "ugLink": "www.ug.dk/uddannelser/universitetsuddannelser/bacheloruddannelser/humanistiskebacheloruddannelser/erhvervssprog/international-virksomhedskommunikation-i-engelsk",
+      "educationLevel": "Bacheloruddannelse",
+      "institution": "Aalborg University",
+      "campus": "Aalborg",
+      "educationForms": [
+        "EduForm1",
+        "eduForm2"
+      ],
+      "dropout_rate": 10.0,
+      "completionTime": "2 år og 10 måneder",
+      "applicants": {
+        "2015": 3,
+        "2016": 2,
+        "2017": 1
+      },
+      "intake": {},
+      "grades": {}
+    },
+    "International Virksomhedskommunikation i Spansk": {
+      "name": "International Virksomhedskommunikation i Spansk",
+      "ugLink": "www.ug.dk/uddannelser/universitetsuddannelser/bacheloruddannelser/humanistiskebacheloruddannelser/erhvervssprog/international-virksomhedskommunikation-i-spansk",
+      "educationLevel": "Bacheloruddannelse",
+      "institution": "Aalborg University",
+      "campus": "Aalborg",
+      "educationForms": [
+        "EduForm1",
+        "eduForm2"
+      ],
+      "dropout_rate": 10.0,
+      "completionTime": "2 år og 10 måneder",
+      "applicants": {
+        "2015": 3,
+        "2016": 2,
+        "2017": 1
+      },
+      "intake": {},
+      "grades": {}
+    },
+    "International Virksomhedskommunikation i Tysk": {
+      "name": "International Virksomhedskommunikation i Tysk",
+      "ugLink": "www.ug.dk/uddannelser/universitetsuddannelser/bacheloruddannelser/humanistiskebacheloruddannelser/erhvervssprog/international-virksomhedskommunikation-i-tysk",
+      "educationLevel": "Bacheloruddannelse",
+      "institution": "Aalborg University",
+      "campus": "Aalborg",
+      "educationForms": [
+        "EduForm1",
+        "eduForm2"
+      ],
+      "dropout_rate": 10.0,
+      "completionTime": "2 år og 10 måneder",
+      "applicants": {
+        "2015": 3,
+        "2016": 2,
+        "2017": 1
+      },
+      "intake": {},
+      "grades": {}
+    },
+    "Internetteknologier og computersystemer": {
+      "name": "Internetteknologier og computersystemer",
+      "ugLink": "www.ug.dk/uddannelser/universitetsuddannelser/bacheloruddannelser/tekniskvidenskabeligebacheloruddannelser/civilingenioeruddannelser/internetteknologier-og-computersystemer",
+      "educationLevel": "Bacheloruddannelse",
+      "institution": "Aalborg University",
+      "campus": "Aalborg",
+      "educationForms": [
+        "EduForm1",
+        "eduForm2"
+      ],
+      "dropout_rate": 10.0,
+      "completionTime": "2 år og 8 måneder",
+      "applicants": {
+        "2015": 3,
+        "2016": 2,
+        "2017": 1
+      },
+      "intake": {},
+      "grades": {}
+    },
+    "Jura": {
+      "name": "Jura",
+      "ugLink": "www.ug.dk/uddannelser/universitetsuddannelser/bacheloruddannelser/samfundsvidenskabeligebacheloruddannelser/forvaltningmv/jura",
+      "educationLevel": "Bacheloruddannelse",
+      "institution": "Aalborg University",
+      "campus": "Aalborg",
+      "educationForms": [
+        "EduForm1",
+        "eduForm2"
+      ],
+      "dropout_rate": 10.0,
+      "completionTime": "2 år og 10 måneder",
+      "applicants": {
+        "2015": 3,
+        "2016": 2,
+        "2017": 1
+      },
+      "intake": {},
+      "grades": {}
+    },
+    "Kemi": {
+      "name": "Kemi",
+      "ugLink": "www.ug.dk/uddannelser/universitetsuddannelser/bacheloruddannelser/naturvidenskabeligebacheloruddannelser/matematikfysikkemiogdatalogi/kemi",
+      "educationLevel": "Bacheloruddannelse",
+      "institution": "Aalborg University",
+      "campus": "Aalborg",
+      "educationForms": [
+        "EduForm1",
+        "eduForm2"
+      ],
+      "dropout_rate": 10.0,
+      "completionTime": "2 år og 4 måneder",
+      "applicants": {
+        "2015": 3,
+        "2016": 2,
+        "2017": 1
+      },
+      "intake": {},
+      "grades": {}
+    },
+    "Kemi og bioteknologi, diplomingeniør": {
+      "name": "Kemi og bioteknologi, diplomingeniør",
+      "ugLink": "www.ug.dk/uddannelser/universitetsuddannelser/bacheloruddannelser/tekniskvidenskabeligebacheloruddannelser/civilingenioeruddannelser/kemi-og-bioteknologi",
+      "educationLevel": "Bacheloruddannelse",
+      "institution": "Aalborg University",
+      "campus": "Esbjerg",
+      "educationForms": [
+        "EduForm1",
+        "eduForm2"
+      ],
+      "dropout_rate": 10.0,
+      "completionTime": "2 år og 9 måneder",
+      "applicants": {
+        "2015": 3,
+        "2016": 2,
+        "2017": 1
+      },
+      "intake": {},
+      "grades": {}
+    },
+    "Kemiteknologi": {
+      "name": "Kemiteknologi",
+      "ugLink": "www.ug.dk/uddannelser/universitetsuddannelser/bacheloruddannelser/tekniskvidenskabeligebacheloruddannelser/civilingenioeruddannelser/kemi-og-teknologi",
+      "educationLevel": "Bacheloruddannelse",
+      "institution": "Aalborg University",
+      "campus": "Aalborg",
+      "educationForms": [
+        "EduForm1",
+        "eduForm2"
+      ],
+      "dropout_rate": 10.0,
+      "completionTime": "-101",
+      "applicants": {
+        "2015": 3,
+        "2016": 2,
+        "2017": 1
+      },
+      "intake": {},
+      "grades": {}
+    },
+    "Kommunikation og digitale medier": {
+      "name": "Kommunikation og digitale medier",
+      "ugLink": "www.ug.dk/uddannelser/universitetsuddannelser/bacheloruddannelser/humanistiskebacheloruddannelser/oevrigehumaniora/kommunikation-og-digitale-medier",
+      "educationLevel": "Bacheloruddannelse",
+      "institution": "Aalborg University",
+      "campus": "København SV",
+      "educationForms": [
+        "EduForm1",
+        "eduForm2"
+      ],
+      "dropout_rate": 10.0,
+      "completionTime": "2 år og 9 måneder",
+      "applicants": {
+        "2015": 3,
+        "2016": 2,
+        "2017": 1
+      },
+      "intake": {},
+      "grades": {}
+    },
+    "Landinspektørvidenskab": {
+      "name": "Landinspektørvidenskab",
+      "ugLink": "www.ug.dk/uddannelser/universitetsuddannelser/bacheloruddannelser/tekniskvidenskabeligebacheloruddannelser/oevrigetekniskvidenskab/landinspektoervidenskab",
+      "educationLevel": "Bacheloruddannelse",
+      "institution": "Aalborg University",
+      "campus": "København SV",
+      "educationForms": [
+        "EduForm1",
+        "eduForm2"
+      ],
+      "dropout_rate": 10.0,
+      "completionTime": "2 år og 9 måneder",
+      "applicants": {
+        "2015": 3,
+        "2016": 2,
+        "2017": 1
+      },
+      "intake": {},
+      "grades": {}
+    },
+    "Manufacturing and Operations Engineering": {
+      "name": "Manufacturing and Operations Engineering",
+      "ugLink": "www.ug.dk/uddannelser/universitetsuddannelser/bacheloruddannelser/tekniskvidenskabeligebacheloruddannelser/civilingenioeruddannelser/produktionsudvikling",
+      "educationLevel": "Bacheloruddannelse",
+      "institution": "Aalborg University",
+      "campus": "København SV",
+      "educationForms": [
+        "EduForm1",
+        "eduForm2"
+      ],
+      "dropout_rate": 10.0,
+      "completionTime": "-101",
+      "applicants": {
+        "2015": 3,
+        "2016": 2,
+        "2017": 1
+      },
+      "intake": {},
+      "grades": {}
+    },
+    "Maskin og Produktion": {
+      "name": "Maskin og Produktion",
+      "ugLink": "www.ug.dk/uddannelser/universitetsuddannelser/bacheloruddannelser/tekniskvidenskabeligebacheloruddannelser/civilingenioeruddannelser/maskin-og-produktion",
+      "educationLevel": "Bacheloruddannelse",
+      "institution": "Aalborg University",
+      "campus": "Esbjerg",
+      "educationForms": [
+        "EduForm1",
+        "eduForm2"
+      ],
+      "dropout_rate": 10.0,
+      "completionTime": "2 år og 4 måneder",
+      "applicants": {
+        "2015": 3,
+        "2016": 2,
+        "2017": 1
+      },
+      "intake": {},
+      "grades": {}
+    },
+    "Maskinteknik, diplomingeniør": {
+      "name": "Maskinteknik, diplomingeniør",
+      "ugLink": "www.ug.dk/uddannelser/professionsbacheloruddannelser/tekniskeogteknologiskeudd/diplomingenioer-maskinteknik",
+      "educationLevel": "Professionsbacheloruddannelse",
+      "institution": "Aalborg University",
+      "campus": "Esbjerg",
+      "educationForms": [
+        "EduForm1",
+        "eduForm2"
+      ],
+      "dropout_rate": 10.0,
+      "completionTime": "-101",
+      "applicants": {
+        "2015": 3,
+        "2016": 2,
+        "2017": 1
+      },
+      "intake": {},
+      "grades": {}
+    },
+    "Matematik": {
+      "name": "Matematik",
+      "ugLink": "www.ug.dk/uddannelser/universitetsuddannelser/bacheloruddannelser/naturvidenskabeligebacheloruddannelser/matematikfysikkemiogdatalogi/matematik",
+      "educationLevel": "Bacheloruddannelse",
+      "institution": "Aalborg University",
+      "campus": "Aalborg",
+      "educationForms": [
+        "EduForm1",
+        "eduForm2"
+      ],
+      "dropout_rate": 10.0,
+      "completionTime": "2 år og 11 måneder",
+      "applicants": {
+        "2015": 3,
+        "2016": 2,
+        "2017": 1
+      },
+      "intake": {},
+      "grades": {}
+    },
+    "Matematik-teknologi": {
+      "name": "Matematik-teknologi",
+      "ugLink": "www.ug.dk/uddannelser/universitetsuddannelser/bacheloruddannelser/tekniskvidenskabeligebacheloruddannelser/civilingenioeruddannelser/matematik-teknologi",
+      "educationLevel": "Bacheloruddannelse",
+      "institution": "Aalborg University",
+      "campus": "Aalborg",
+      "educationForms": [
+        "EduForm1",
+        "eduForm2"
+      ],
+      "dropout_rate": 10.0,
+      "completionTime": "-101",
+      "applicants": {
+        "2015": 3,
+        "2016": 2,
+        "2017": 1
+      },
+      "intake": {},
+      "grades": {}
+    },
+    "Matematik-økonomi": {
+      "name": "Matematik-økonomi",
+      "ugLink": "www.ug.dk/uddannelser/universitetsuddannelser/bacheloruddannelser/naturvidenskabeligebacheloruddannelser/matematikfysikkemiogdatalogi/matematik-oekonomi",
+      "educationLevel": "Bacheloruddannelse",
+      "institution": "Aalborg University",
+      "campus": "Aalborg",
+      "educationForms": [
+        "EduForm1",
+        "eduForm2"
+      ],
+      "dropout_rate": 10.0,
+      "completionTime": "3 år og 0 måneder",
+      "applicants": {
+        "2015": 3,
+        "2016": 2,
+        "2017": 1
+      },
+      "intake": {},
+      "grades": {}
+    },
+    "Medialogy": {
+      "name": "Medialogy",
+      "ugLink": "www.ug.dk/uddannelser/universitetsuddannelser/bacheloruddannelser/naturvidenskabeligebacheloruddannelser/matematikfysikkemiogdatalogi/medialogy",
+      "educationLevel": "Bacheloruddannelse",
+      "institution": "Aalborg University",
+      "campus": "København SV",
+      "educationForms": [
+        "EduForm1",
+        "eduForm2"
+      ],
+      "dropout_rate": 10.0,
+      "completionTime": "3 år og 0 måneder",
+      "applicants": {
+        "2015": 3,
+        "2016": 2,
+        "2017": 1
+      },
+      "intake": {},
+      "grades": {}
+    },
+    "Medicin (lægeuddannelsen)": {
+      "name": "Medicin (lægeuddannelsen)",
+      "ugLink": "www.ug.dk/uddannelser/universitetsuddannelser/bacheloruddannelser/sundhedsvidenskabeligebacheloruddannelser/medicin",
+      "educationLevel": "Bacheloruddannelse",
+      "institution": "Aalborg University",
+      "campus": "Aalborg",
+      "educationForms": [
+        "EduForm1",
+        "eduForm2"
+      ],
+      "dropout_rate": 10.0,
+      "completionTime": "2 år og 7 måneder",
+      "applicants": {
+        "2015": 3,
+        "2016": 2,
+        "2017": 1
+      },
+      "intake": {},
+      "grades": {}
+    },
+    "Medicin med industriel specialisering": {
+      "name": "Medicin med industriel specialisering",
+      "ugLink": "www.ug.dk/uddannelser/universitetsuddannelser/bacheloruddannelser/naturvidenskabeligebacheloruddannelser/matematikfysikkemiogdatalogi/medicin-med-industriel-specialisering",
+      "educationLevel": "Bacheloruddannelse",
+      "institution": "Aalborg University",
+      "campus": "Aalborg",
+      "educationForms": [
+        "EduForm1",
+        "eduForm2"
+      ],
+      "dropout_rate": 10.0,
+      "completionTime": "3 år og 1 måneder",
+      "applicants": {
+        "2015": 3,
+        "2016": 2,
+        "2017": 1
+      },
+      "intake": {},
+      "grades": {}
+    },
+    "Miljøvidenskab": {
+      "name": "Miljøvidenskab",
+      "ugLink": "www.ug.dk/uddannelser/universitetsuddannelser/bacheloruddannelser/tekniskvidenskabeligebacheloruddannelser/civilingenioeruddannelser/miljoevidenskab",
+      "educationLevel": "Bacheloruddannelse",
+      "institution": "Aalborg University",
+      "campus": "Aalborg",
+      "educationForms": [
+        "EduForm1",
+        "eduForm2"
+      ],
+      "dropout_rate": 10.0,
+      "completionTime": "-101",
+      "applicants": {
+        "2015": 3,
+        "2016": 2,
+        "2017": 1
+      },
+      "intake": {},
+      "grades": {}
+    },
+    "Musik": {
+      "name": "Musik",
+      "ugLink": "www.ug.dk/uddannelser/universitetsuddannelser/bacheloruddannelser/humanistiskebacheloruddannelser/oevrigehumaniora/musikvidenskab",
+      "educationLevel": "Bacheloruddannelse",
+      "institution": "Aalborg University",
+      "campus": "Aalborg",
+      "educationForms": [
+        "EduForm1",
+        "eduForm2"
+      ],
+      "dropout_rate": 10.0,
+      "completionTime": "3 år og 2 måneder",
+      "applicants": {
+        "2015": 3,
+        "2016": 2,
+        "2017": 1
+      },
+      "intake": {},
+      "grades": {}
+    },
+    "Musikterapi": {
+      "name": "Musikterapi",
+      "ugLink": "www.ug.dk/uddannelser/universitetsuddannelser/bacheloruddannelser/humanistiskebacheloruddannelser/oevrigehumaniora/musikterapi",
+      "educationLevel": "Bacheloruddannelse",
+      "institution": "Aalborg University",
+      "campus": "Aalborg",
+      "educationForms": [
+        "EduForm1",
+        "eduForm2"
+      ],
+      "dropout_rate": 10.0,
+      "completionTime": "2 år og 10 måneder",
+      "applicants": {
+        "2015": 3,
+        "2016": 2,
+        "2017": 1
+      },
+      "intake": {},
+      "grades": {}
+    },
+    "Nanoteknologi": {
+      "name": "Nanoteknologi",
+      "ugLink": "www.ug.dk/uddannelser/universitetsuddannelser/bacheloruddannelser/tekniskvidenskabeligebacheloruddannelser/civilingenioeruddannelser/nanoteknologi",
+      "educationLevel": "Bacheloruddannelse",
+      "institution": "Aalborg University",
+      "campus": "Aalborg",
+      "educationForms": [
+        "EduForm1",
+        "eduForm2"
+      ],
+      "dropout_rate": 10.0,
+      "completionTime": "2 år og 11 måneder",
+      "applicants": {
+        "2015": 3,
+        "2016": 2,
+        "2017": 1
+      },
+      "intake": {},
+      "grades": {}
+    },
+    "Organisatorisk læring": {
+      "name": "Organisatorisk læring",
+      "ugLink": "www.ug.dk/uddannelser/universitetsuddannelser/bacheloruddannelser/samfundsvidenskabeligebacheloruddannelser/oevrigesamfundsvidenskab/organisatorisk-laering",
+      "educationLevel": "Bacheloruddannelse",
+      "institution": "Aalborg University",
+      "campus": "Aalborg",
+      "educationForms": [
+        "EduForm1",
+        "eduForm2"
+      ],
+      "dropout_rate": 10.0,
+      "completionTime": "-101",
+      "applicants": {
+        "2015": 3,
+        "2016": 2,
+        "2017": 1
+      },
+      "intake": {},
+      "grades": {}
+    },
+    "Politik \u0026 Administration": {
+      "name": "Politik \u0026 Administration",
+      "ugLink": "www.ug.dk/uddannelser/universitetsuddannelser/bacheloruddannelser/samfundsvidenskabeligebacheloruddannelser/forvaltningmv/politik-og-administration",
+      "educationLevel": "Bacheloruddannelse",
+      "institution": "Aalborg University",
+      "campus": "Aalborg",
+      "educationForms": [
+        "EduForm1",
+        "eduForm2"
+      ],
+      "dropout_rate": 10.0,
+      "completionTime": "2 år og 5 måneder",
+      "applicants": {
+        "2015": 3,
+        "2016": 2,
+        "2017": 1
+      },
+      "intake": {},
+      "grades": {}
+    },
+    "Produkt- og designpsykologi": {
+      "name": "Produkt- og designpsykologi",
+      "ugLink": "www.ug.dk/uddannelser/universitetsuddannelser/bacheloruddannelser/tekniskvidenskabeligebacheloruddannelser/civilingenioeruddannelser/produkt-og-designpsykologi",
+      "educationLevel": "Bacheloruddannelse",
+      "institution": "Aalborg University",
+      "campus": "Aalborg",
+      "educationForms": [
+        "EduForm1",
+        "eduForm2"
+      ],
+      "dropout_rate": 10.0,
+      "completionTime": "2 år og 10 måneder",
+      "applicants": {
+        "2015": 3,
+        "2016": 2,
+        "2017": 1
+      },
+      "intake": {},
+      "grades": {}
+    },
+    "Psykologi": {
+      "name": "Psykologi",
+      "ugLink": "www.ug.dk/uddannelser/universitetsuddannelser/bacheloruddannelser/samfundsvidenskabeligebacheloruddannelser/oevrigesamfundsvidenskab/psykologi",
+      "educationLevel": "Bacheloruddannelse",
+      "institution": "Aalborg University",
+      "campus": "Aalborg",
+      "educationForms": [
+        "EduForm1",
+        "eduForm2"
+      ],
+      "dropout_rate": 10.0,
+      "completionTime": "2 år og 10 måneder",
+      "applicants": {
+        "2015": 3,
+        "2016": 2,
+        "2017": 1
+      },
+      "intake": {},
+      "grades": {}
+    },
+    "Robotics": {
+      "name": "Robotics",
+      "ugLink": "www.ug.dk/uddannelser/universitetsuddannelser/bacheloruddannelser/tekniskvidenskabeligebacheloruddannelser/civilingenioeruddannelser/robotics",
+      "educationLevel": "Bacheloruddannelse",
+      "institution": "Aalborg University",
+      "campus": "Aalborg",
+      "educationForms": [
+        "EduForm1",
+        "eduForm2"
+      ],
+      "dropout_rate": 10.0,
+      "completionTime": "-101",
+      "applicants": {
+        "2015": 3,
+        "2016": 2,
+        "2017": 1
+      },
+      "intake": {},
+      "grades": {}
+    },
+    "Samfundsfag": {
+      "name": "Samfundsfag",
+      "ugLink": "www.ug.dk/uddannelser/universitetsuddannelser/bacheloruddannelser/samfundsvidenskabeligebacheloruddannelser/forvaltningmv/samfundsfag",
+      "educationLevel": "Bacheloruddannelse",
+      "institution": "Aalborg University",
+      "campus": "Aalborg",
+      "educationForms": [
+        "EduForm1",
+        "eduForm2"
+      ],
+      "dropout_rate": 10.0,
+      "completionTime": "2 år og 11 måneder",
+      "applicants": {
+        "2015": 3,
+        "2016": 2,
+        "2017": 1
+      },
+      "intake": {},
+      "grades": {}
+    },
+    "Socialrådgiver": {
+      "name": "Socialrådgiver",
+      "ugLink": "www.ug.dk/uddannelser/professionsbacheloruddannelser/samfundsfagligeogoekonomiskeuddannelser/socialraadgiver",
+      "educationLevel": "Professionsbacheloruddannelse",
+      "institution": "Aalborg University",
+      "campus": "Aalborg",
+      "educationForms": [
+        "EduForm1",
+        "eduForm2"
+      ],
+      "dropout_rate": 10.0,
+      "completionTime": "3 år og 6 måneder",
+      "applicants": {
+        "2015": 3,
+        "2016": 2,
+        "2017": 1
+      },
+      "intake": {},
+      "grades": {}
+    },
+    "Sociologi": {
+      "name": "Sociologi",
+      "ugLink": "www.ug.dk/uddannelser/universitetsuddannelser/bacheloruddannelser/samfundsvidenskabeligebacheloruddannelser/forvaltningmv/sociologi",
+      "educationLevel": "Bacheloruddannelse",
+      "institution": "Aalborg University",
+      "campus": "Aalborg",
+      "educationForms": [
+        "EduForm1",
+        "eduForm2"
+      ],
+      "dropout_rate": 10.0,
+      "completionTime": "2 år og 10 måneder",
+      "applicants": {
+        "2015": 3,
+        "2016": 2,
+        "2017": 1
+      },
+      "intake": {},
+      "grades": {}
+    },
+    "Software": {
+      "name": "Software",
+      "ugLink": "www.ug.dk/uddannelser/universitetsuddannelser/bacheloruddannelser/tekniskvidenskabeligebacheloruddannelser/civilingenioeruddannelser/software",
+      "educationLevel": "Bacheloruddannelse",
+      "institution": "Aalborg University",
+      "campus": "Aalborg",
+      "educationForms": [
+        "EduForm1",
+        "eduForm2"
+      ],
+      "dropout_rate": 10.0,
+      "completionTime": "2 år og 9 måneder",
+      "applicants": {
+        "2015": 3,
+        "2016": 2,
+        "2017": 1
+      },
+      "intake": {},
+      "grades": {}
+    },
+    "Spansk, Sprog og Internationale studier": {
+      "name": "Spansk, Sprog og Internationale studier",
+      "ugLink": "www.ug.dk/uddannelser/universitetsuddannelser/bacheloruddannelser/humanistiskebacheloruddannelser/oevrigehumaniora/spansk-sprog-og-internationale-studier-sis",
+      "educationLevel": "Bacheloruddannelse",
+      "institution": "Aalborg University",
+      "campus": "Aalborg",
+      "educationForms": [
+        "EduForm1",
+        "eduForm2"
+      ],
+      "dropout_rate": 10.0,
+      "completionTime": "3 år og 1 måneder",
+      "applicants": {
+        "2015": 3,
+        "2016": 2,
+        "2017": 1
+      },
+      "intake": {},
+      "grades": {}
+    },
+    "Sundhedsteknologi": {
+      "name": "Sundhedsteknologi",
+      "ugLink": "www.ug.dk/uddannelser/universitetsuddannelser/bacheloruddannelser/tekniskvidenskabeligebacheloruddannelser/civilingenioeruddannelser/sundhedsteknologi",
+      "educationLevel": "Bacheloruddannelse",
+      "institution": "Aalborg University",
+      "campus": "Aalborg",
+      "educationForms": [
+        "EduForm1",
+        "eduForm2"
+      ],
+      "dropout_rate": 10.0,
+      "completionTime": "2 år og 9 måneder",
+      "applicants": {
+        "2015": 3,
+        "2016": 2,
+        "2017": 1
+      },
+      "intake": {},
+      "grades": {}
+    },
+    "Sustainable biotechnology": {
+      "name": "Sustainable biotechnology",
+      "ugLink": "www.ug.dk/uddannelser/universitetsuddannelser/bacheloruddannelser/tekniskvidenskabeligebacheloruddannelser/civilingenioeruddannelser/sustainable-biotechnology",
+      "educationLevel": "Bacheloruddannelse",
+      "institution": "Aalborg University",
+      "campus": "København SV",
+      "educationForms": [
+        "EduForm1",
+        "eduForm2"
+      ],
+      "dropout_rate": 10.0,
+      "completionTime": "-101",
+      "applicants": {
+        "2015": 3,
+        "2016": 2,
+        "2017": 1
+      },
+      "intake": {},
+      "grades": {}
+    },
+    "Teknoantropologi": {
+      "name": "Teknoantropologi",
+      "ugLink": "www.ug.dk/uddannelser/universitetsuddannelser/bacheloruddannelser/tekniskvidenskabeligebacheloruddannelser/oevrigetekniskvidenskab/teknoantropologi",
+      "educationLevel": "Bacheloruddannelse",
+      "institution": "Aalborg University",
+      "campus": "København SV",
+      "educationForms": [
+        "EduForm1",
+        "eduForm2"
+      ],
+      "dropout_rate": 10.0,
+      "completionTime": "2 år og 10 måneder",
+      "applicants": {
+        "2015": 3,
+        "2016": 2,
+        "2017": 1
+      },
+      "intake": {},
+      "grades": {}
+    },
+    "Tysk": {
+      "name": "Tysk",
+      "ugLink": "www.ug.dk/uddannelser/universitetsuddannelser/bacheloruddannelser/humanistiskebacheloruddannelser/sprog/tysk",
+      "educationLevel": "Bacheloruddannelse",
+      "institution": "Aalborg University",
+      "campus": "Aalborg",
+      "educationForms": [
+        "EduForm1",
+        "eduForm2"
+      ],
+      "dropout_rate": 10.0,
+      "completionTime": "2 år og 8 måneder",
+      "applicants": {
+        "2015": 3,
+        "2016": 2,
+        "2017": 1
+      },
+      "intake": {},
+      "grades": {}
+    },
+    "Økonomi": {
+      "name": "Økonomi",
+      "ugLink": "www.ug.dk/uddannelser/universitetsuddannelser/bacheloruddannelser/samfundsvidenskabeligebacheloruddannelser/erhvervsoekonomi/oekonomi",
+      "educationLevel": "Bacheloruddannelse",
+      "institution": "Aalborg University",
+      "campus": "Aalborg",
+      "educationForms": [
+        "EduForm1",
+        "eduForm2"
+      ],
+      "dropout_rate": 10.0,
+      "completionTime": "2 år og 10 måneder",
+      "applicants": {
+        "2015": 3,
+        "2016": 2,
+        "2017": 1
+      },
+      "intake": {},
+      "grades": {}
+    }
+  },
+  "Kandidatuddannelse": {}
+}

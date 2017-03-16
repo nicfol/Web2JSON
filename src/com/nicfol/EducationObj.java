@@ -1,8 +1,5 @@
 package com.nicfol;
 
-import sun.applet.resources.MsgAppletViewer;
-
-import java.util.ArrayList;
 import java.util.Map;
 
 public class EducationObj {
@@ -15,8 +12,6 @@ public class EducationObj {
     Map educationForms;
     float dropout_rate;
     String completionTime;
-    String[][] similarEducations;
-    String[][] possibleJobs;
 
     Map<Integer,Integer> applicants;
     Map<Integer,Integer> intake;
@@ -43,8 +38,6 @@ public class EducationObj {
         this.educationForms = educationForms;
         this.dropout_rate = dropout_rate;
         this.completionTime = completionTime;
-        this.similarEducations = similarEducations;
-        this.possibleJobs = possibleJobs;
 
         this.applicants = applicants;
         this.intake = intake;

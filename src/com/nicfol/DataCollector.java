@@ -11,28 +11,26 @@ import java.util.TreeMap;
 public class DataCollector {
     private final static String workingDirectory = System.getProperty("user.dir");           //Working Directory
 
-    static Gson gson;
-    static EducationObj education;
-    static String gsonString;
+
 
     public static void main(String[] args) {
-        ReadFile ugZoomReader = new ReadFile(workingDirectory + "\\input\\ugZoomCleaned.csv");
+        ReadFile ugZoomReaderBa = new ReadFile(workingDirectory + "\\input\\ugZoom\\ugZoomCleanedBa.csv");
+        ReadFile ugZoomReaderMsc = new ReadFile(workingDirectory + "\\input\\ugZoom\\ugZoomCleanedMsc.csv");
 
         //Debug first line
-        String ugZoomLine = ugZoomReader.readNextLine();
+        String ugZoomLine = ugZoomReaderBa.readNextLine();
         String firstLineArr[] = ugZoomLine.split(";");
         for(int i = 0; i < firstLineArr.length-1; i++) {
             System.out.println("   | (" + i + ") " + firstLineArr[i]);
         }
 
-
+        Gson gson = new GsonBuilder().setPrettyPrinting().create();
+        EducationObj education;
 
         Map<String,EducationObj> bachelorMap = new TreeMap<>();
 
-        while((ugZoomLine = ugZoomReader.readNextLine()) != null) {
+        while((ugZoomLine = ugZoomReaderBa.readNextLine()) != null) {
             String ugSplitArr[] = ugZoomLine.split(";");
-
-
 
             String name = ugSplitArr[0];
             String ugLink = ugSplitArr[1];
@@ -49,6 +47,7 @@ public class DataCollector {
             Map<Integer,Integer> intake = new TreeMap<>();
             Map<Integer,Integer> grades = new TreeMap<>();
 
+
             educationForms.put(5, ugSplitArr[12]);
             educationForms.put(4, ugSplitArr[11]);
             educationForms.put(3, ugSplitArr[10]);
@@ -56,19 +55,15 @@ public class DataCollector {
             educationForms.put(1, ugSplitArr[8]);
 
 
-
             applicants.put(2017, 1);
             applicants.put(2016, 2);
             applicants.put(2015, 3);
+
 
             education = new EducationObj(name, ugLink, educationLevel, institution, campus, educationForms,
                     dropout_rate, completionTime, applicants, intake, grades);
 
             bachelorMap.put(name, education);
-
-            gson = new GsonBuilder().setPrettyPrinting().create();
-
-            gsonString = gson.toJson(education);
         }
 
         Map<String,EducationObj> masterMap = new TreeMap<>();

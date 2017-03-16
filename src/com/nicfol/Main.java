@@ -1,7 +1,7 @@
 package com.nicfol;
 
 
-//import org.json.simple.JSONObject;
+import org.json.simple.JSONObject;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
@@ -14,10 +14,10 @@ public class Main {
 
     public static void main(String[] args) {
 
-/*
+
         //Files
-        String fileAAUlinksBA = workingDirectory + "/input/aauBAlinks.txt";
-        String fileAAUlinksMSc = workingDirectory + "/input/aauMSclinks.txt";
+        String fileAAUlinksBA = workingDirectory + "/input/aau/aauBAlinks.txt";
+        String fileAAUlinksMSc = workingDirectory + "/input/aau/aauMSclinks.txt";
 
         ReadFile aauBALinks = new ReadFile(fileAAUlinksBA);
         ReadFile aauMSCLinks = new ReadFile(fileAAUlinksMSc);
@@ -61,7 +61,7 @@ public class Main {
         } catch (IOException e) {
             e.printStackTrace();
         }
-*/
+
 
     }
 

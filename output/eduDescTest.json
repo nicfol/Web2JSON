@@ -416,7 +416,7 @@
     },
     "Engelsk": {
       "name": "Engelsk",
-      "ugLink": "www.ug.dk/uddannelser/universitetsuddannelser/bacheloruddannelser/humanistiskebacheloruddannelser/oevrigehumaniora/engelsk-sprog-og-internationale-studier-sis",
+      "ugLink": "www.ug.dk/uddannelser/universitetsuddannelser/bacheloruddannelser/humanistiskebacheloruddannelser/sprog/engelsk",
       "educationLevel": "Bacheloruddannelse",
       "institution": "Aalborg University",
       "campus": "Aalborg",
@@ -424,10 +424,10 @@
         "1": "Selvstudie",
         "2": "Forelæsninger",
         "3": "Projektarbejde",
-        "4": "Klasseundervisning",
-        "5": "Gruppearbejde"
+        "4": "Gruppearbejde",
+        "5": "Klasseundervisning"
       },
-      "dropout_rate": 19.0,
+      "dropout_rate": 29.0,
       "completionTime": "2 år og 11 måneder",
       "applicants": {
         "2015": 3,
@@ -935,6 +935,29 @@
       },
       "dropout_rate": 20.0,
       "completionTime": "2 år og 9 måneder",
+      "applicants": {
+        "2015": 3,
+        "2016": 2,
+        "2017": 1
+      },
+      "intake": {},
+      "grades": {}
+    },
+    "Language and International Studies": {
+      "name": "Language and International Studies",
+      "ugLink": "www.ug.dk/uddannelser/universitetsuddannelser/bacheloruddannelser/humanistiskebacheloruddannelser/oevrigehumaniora/engelsk-sprog-og-internationale-studier-sis",
+      "educationLevel": "Bacheloruddannelse",
+      "institution": "Aalborg University",
+      "campus": "Aalborg",
+      "educationForms": {
+        "1": "Selvstudie",
+        "2": "Forelæsninger",
+        "3": "Projektarbejde",
+        "4": "Klasseundervisning",
+        "5": "Gruppearbejde"
+      },
+      "dropout_rate": 19.0,
+      "completionTime": "2 år og 11 måneder",
       "applicants": {
         "2015": 3,
         "2016": 2,

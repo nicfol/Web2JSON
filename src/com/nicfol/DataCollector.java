@@ -54,6 +54,40 @@ public class DataCollector {
                     educationForms.put(i, ugSplitArr[i + 7]);
             }
 
+            ReadFile k16 = new ReadFile(workingDirectory + "\\input\\kot\\hovedtal2016.csv");
+            String line16;
+            String kotNo = "";
+            while((line16 = k16.readNextLine()) != null) {
+                String[] line16Split = line16.split(";");
+                if(line16Split[0].equals(name)) {
+                    kotNo = line16Split[1];
+
+                    applicants.put(2016, line16Split[5]);
+                    intake.put(2016, line16Split[3]);
+                    grades.put(2016, line16Split[7]);
+                }
+            }
+            ReadFile k15 = new ReadFile(workingDirectory + "\\input\\kot\\hovedtal2015.csv");
+            String line15;
+            while((line15 = k15.readNextLine()) != null) {
+                String[] lineSplit = line15.split(";");
+
+                for(int i = 0; i < lineSplit.length; i++)
+                    System.out.println(i + " " + lineSplit[i]);
+
+                if(lineSplit[1].equals(kotNo)) {
+                    System.out.println(name + "555");
+
+                    applicants.put(2016, lineSplit[5]);
+                    intake.put(2016, lineSplit[3]);
+                    grades.put(2016, lineSplit[7]);
+                }
+            }
+
+
+
+
+            /* You're fucked up if you do this 3-4-4-0
             System.out.println(name + ", " + campus);
             int year = 0;
             while(year < 2017){
@@ -81,6 +115,7 @@ public class DataCollector {
                 year++;
 
             }
+            */
 
             education = new EducationObj(name, ugLink, educationLevel, institution, campus, educationForms,
                     dropout_rate, completionTime, applicants, intake, grades);

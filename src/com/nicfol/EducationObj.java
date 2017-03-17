@@ -13,9 +13,9 @@ public class EducationObj {
     float dropout_rate;
     String completionTime;
 
-    Map<Integer,Integer> applicants;
-    Map<Integer,Integer> intake;
-    Map<Integer,Integer> grades;
+    Map<Integer,String> applicants;
+    Map<Integer,String> intake;
+    Map<Integer,String> grades;
 
     public EducationObj(
                         String name,

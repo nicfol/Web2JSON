@@ -6,6 +6,7 @@ import com.google.gson.GsonBuilder;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Map;
+import java.util.Scanner;
 import java.util.TreeMap;
 
 public class DataCollector {
@@ -17,11 +18,13 @@ public class DataCollector {
         ReadFile ugZoomReaderBa = new ReadFile(workingDirectory + "\\input\\ugZoom\\ugZoomCleanedBa.csv");
         ReadFile ugZoomReaderMsc = new ReadFile(workingDirectory + "\\input\\ugZoom\\ugZoomCleanedMsc.csv");
 
+        Scanner inputReader = new Scanner(System.in);
+
         //Debug first line
         String ugZoomLine = ugZoomReaderBa.readNextLine();
         String firstLineArr[] = ugZoomLine.split(";");
         for(int i = 0; i < firstLineArr.length-1; i++) {
-            System.out.println("   | (" + i + ") " + firstLineArr[i]);
+            //System.out.println("   | (" + i + ") " + firstLineArr[i]);
         }
 
         Gson gson = new GsonBuilder().setPrettyPrinting().create();
@@ -43,22 +46,41 @@ public class DataCollector {
             float dropout_rate = Float.valueOf(ugSplitArr[6]);
             String completionTime = ugSplitArr[5];
 
-            Map<Integer,Integer> applicants = new TreeMap<>();
-            Map<Integer,Integer> intake = new TreeMap<>();
-            Map<Integer,Integer> grades = new TreeMap<>();
+            Map<Integer,String> applicants = new TreeMap<>();
+            Map<Integer,String> intake = new TreeMap<>();
+            Map<Integer,String> grades = new TreeMap<>();
+
+            for(int i = 1; i <= 5; i++) {
+                    educationForms.put(i, ugSplitArr[i + 7]);
+            }
+
+            System.out.println(name + ", " + campus);
+            int year = 0;
+            while(year < 2017){
+                if(year == 0) {
+                    System.out.println("Year");
+                    year = Integer.valueOf(inputReader.next());
+                }
+
+                System.out.println("Intake");
+                String noIntake = inputReader.next();
+                System.out.println("Applicants");
+                String noApplicants = inputReader.next();
+                System.out.println("Grades");
+                String noGrades = inputReader.next();
+
+                if(noGrades.equals("0"))
+                    noGrades = "Alle optaget";
+
+                System.out.println("Intake: " + noIntake + " Appl: " + noApplicants + " Grade: " + noGrades);
 
 
-            educationForms.put(5, ugSplitArr[12]);
-            educationForms.put(4, ugSplitArr[11]);
-            educationForms.put(3, ugSplitArr[10]);
-            educationForms.put(2, ugSplitArr[9]);
-            educationForms.put(1, ugSplitArr[8]);
+                applicants.put(year, noApplicants);
+                intake.put(year, noIntake);
+                grades.put(year, noGrades);
+                year++;
 
-
-            applicants.put(2017, 1);
-            applicants.put(2016, 2);
-            applicants.put(2015, 3);
-
+            }
 
             education = new EducationObj(name, ugLink, educationLevel, institution, campus, educationForms,
                     dropout_rate, completionTime, applicants, intake, grades);
@@ -83,6 +105,5 @@ public class DataCollector {
         } catch (IOException e) {
             e.printStackTrace();
         }
-
     }
 }

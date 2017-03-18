@@ -5,6 +5,7 @@ import org.json.simple.JSONObject;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
+import sun.nio.cs.ext.MS874;
 
 import java.io.*;
 
@@ -30,7 +31,7 @@ public class Main {
 
 
         while((Baurl = aauBALinks.readNextLine()) != null) {
-            System.out.println(Baurl);
+            //System.out.println(Baurl);
 
             String desc = getAAUdesc(Baurl);
             String name = getAAUname(Baurl);
@@ -47,10 +48,12 @@ public class Main {
 
 
         while((MScurl = aauMSCLinks.readNextLine()) != null) {
-            System.out.println(MScurl);
+            //System.out.println(MScurl);
 
             String desc = getAAUdesc(MScurl);
             String name = getAAUname(MScurl);
+
+            cleanString(name);
 
             mscOBJ.put(name, desc);
         }
@@ -61,8 +64,6 @@ public class Main {
         } catch (IOException e) {
             e.printStackTrace();
         }
-
-
     }
 
     //Cleans a string
@@ -160,6 +161,7 @@ public class Main {
         String name = nameJSe.unwrap().toString();
         name = name.replace(", Bachelor", "");
         name = name.replace(", Kandidat", "");
+        name = name.replace(", kandidat", "");
 
         return name;
     }

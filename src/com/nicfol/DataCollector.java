@@ -58,30 +58,69 @@ public class DataCollector {
             String line16;
             String kotNo = "";
             while((line16 = k16.readNextLine()) != null) {
-                String[] line16Split = line16.split(";");
-                if(line16Split[0].equals(name)) {
-                    kotNo = line16Split[1];
+                String[] lineSplit = line16.split(";");
+                if(lineSplit[0].equals(name)) {
+                    kotNo = lineSplit[1];
 
-                    applicants.put(2016, line16Split[5]);
-                    intake.put(2016, line16Split[3]);
-                    grades.put(2016, line16Split[7]);
+                    String noAppli = lineSplit[5];
+                    String noIntake = lineSplit[3];
+                    String noGrades = lineSplit[7];
+
+                    if(!Character.isDigit(noGrades.charAt(0)))
+                        noGrades = "Alle optaget, ledige pladser";
+
+                    applicants.put(2016, noAppli);
+                    intake.put(2016, noIntake);
+                    grades.put(2016, noGrades);
                 }
             }
+
             ReadFile k15 = new ReadFile(workingDirectory + "\\input\\kot\\hovedtal2015.csv");
             String line15;
             while((line15 = k15.readNextLine()) != null) {
                 String[] lineSplit = line15.split(";");
 
-                for(int i = 0; i < lineSplit.length; i++)
-                    System.out.println(i + " " + lineSplit[i]);
-
                 if(lineSplit[1].equals(kotNo)) {
-                    System.out.println(name + "555");
+                    int year = 2015;
+                    //sSystem.out.println("Matched 2015 " + lineSplit[2]);
 
-                    applicants.put(2016, lineSplit[5]);
-                    intake.put(2016, lineSplit[3]);
-                    grades.put(2016, lineSplit[7]);
+                    String noAppli = lineSplit[5];
+                    String noIntake = lineSplit[3];
+                    String noGrades = lineSplit[7];
+
+                    if(!Character.isDigit(noGrades.charAt(0)))
+                        noGrades = "Alle optaget, ledige pladser";
+
+                    applicants.put(year, noAppli);
+                    intake.put(year, noIntake);
+                    grades.put(year, noGrades);
                 }
+            }
+
+            ReadFile k14 = new ReadFile(workingDirectory + "\\input\\kot\\hovedtal2014.csv");
+            String line14;
+            while((line14 = k14.readNextLine()) != null) {
+                String[] lineSplit = line14.split(";");
+
+                    if(lineSplit[1].equals(kotNo)) {
+                        int year = 2014;
+                        //System.out.println("Matched 2014 " + lineSplit[2]);
+
+
+                        for(int i = 0; i < lineSplit.length; i++)
+                            System.out.println(lineSplit[i]);
+
+                        String noAppli = lineSplit[5];
+                        String noIntake = lineSplit[3];
+                        String noGrades = lineSplit[7];
+
+                        if(!Character.isDigit(noGrades.charAt(0)))
+                            noGrades = "Alle optaget, ledige pladser";
+
+                        applicants.put(year, noAppli);
+                        intake.put(year, noIntake);
+                        grades.put(year, noGrades);
+                    }
             }
 
 

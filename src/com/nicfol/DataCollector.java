@@ -36,13 +36,18 @@ public class DataCollector {
             Map<Integer,String> educationForms = new TreeMap<>();
 
             float dropout_rate = Float.valueOf(ugSplitArr[6]);
-            String completionTime = ugSplitArr[5];
+            String completionTime = "";
+
+            if(!ugSplitArr[5].equals("-101")) {
+                completionTime= ugSplitArr[5];
+            }
 
             Map<Integer,String> applicants = new TreeMap<>();
             Map<Integer,String> intake = new TreeMap<>();
             Map<Integer,String> grades = new TreeMap<>();
 
             for(int i = 1; i <= 5; i++) {
+                if(!ugSplitArr[i+7].equals("-101"))
                     educationForms.put(i, ugSplitArr[i + 7]);
             }
 
@@ -216,10 +221,15 @@ public class DataCollector {
             System.out.println();
 
             float dropout_rate = Float.valueOf(ugSplitArr[6]);
-            String completionTime = ugSplitArr[5];
+
+            String completionTime = "";
+            if(!ugSplitArr[5].equals("-101")) {
+                completionTime = ugSplitArr[5];
+            }
 
             for (int i = 1; i <= 5; i++) {
-                educationForms.put(i, ugSplitArr[i + 7]);
+                if(!ugSplitArr[i+8].equals("-101"))
+                    educationForms.put(i, ugSplitArr[i + 8]);
             }
 
             EducationObj education = new EducationObj(name, ugLink, educationLevel, institution, campus, educationForms,

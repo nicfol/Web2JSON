@@ -1,13 +1,18 @@
 package com.nicfol;
 
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
+import com.google.gson.reflect.TypeToken;
 
-import org.json.simple.JSONObject;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
-import sun.nio.cs.ext.MS874;
 
 import java.io.*;
+import java.lang.reflect.Type;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.TreeMap;
 
 public class Main {
 
@@ -26,9 +31,11 @@ public class Main {
         String Baurl = "";
         String MScurl = "";
 
-        JSONObject baOBJ = new JSONObject();
-        JSONObject mscOBJ = new JSONObject();
+        Gson gsonBa = new GsonBuilder().setPrettyPrinting().create();
 
+        Map<String, String> mapBa = new TreeMap<>();
+        Map<String, String> mapMsc = new TreeMap<>();
+        Type mapType = new TypeToken<HashMap<String, String>>() {}.getType();
 
         while((Baurl = aauBALinks.readNextLine()) != null) {
             //System.out.println(Baurl);
@@ -36,11 +43,12 @@ public class Main {
             String desc = getAAUdesc(Baurl);
             String name = getAAUname(Baurl);
 
-            baOBJ.put(name, desc);
+            mapBa.put(name, desc);
         }
 
         try (FileWriter file = new FileWriter(workingDirectory + "/output/aauDescriptionsBA.json")) {
-            file.write(baOBJ.toJSONString());
+            String stringMap = gsonBa.toJson(mapBa, mapType);
+            file.write((stringMap));
             file.flush();
         } catch (IOException e) {
             e.printStackTrace();
@@ -55,11 +63,12 @@ public class Main {
 
             cleanString(name);
 
-            mscOBJ.put(name, desc);
+            mapMsc.put(name, desc);
         }
 
         try (FileWriter file = new FileWriter(workingDirectory + "/output/aauDescriptionsMSc.json")) {
-            file.write(mscOBJ.toJSONString());
+            String stringMap = gsonBa.toJson(mapMsc, mapType);
+            file.write((stringMap));
             file.flush();
         } catch (IOException e) {
             e.printStackTrace();

@@ -191,6 +191,20 @@ public class DataCollector {
                     dropout_rate, completionTime, applicants, intake, grades);
 
             bachelorMap.put(name, education);
+
+
+
+            Gson gson = new GsonBuilder().setPrettyPrinting().create();
+            String stringMap = gson.toJson(bachelorMap);
+
+            try (FileWriter file = new FileWriter(workingDirectory + "/output/eduDescTest.json")) {
+                file.write(stringMap);
+                file.flush();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+
+
         }
 
 
@@ -214,10 +228,10 @@ public class DataCollector {
             Map<Integer, String> educationForms = new TreeMap<>();
 
             for (int i = 0; i < ugSplitArr.length ; i++) {
-                System.out.print(i + " = " + ugSplitArr[i] + " | ");
+                //System.out.print(i + " = " + ugSplitArr[i] + " | ");
             }
 
-            System.out.println();
+            //System.out.println();
 
             float dropout_rate = Float.valueOf(ugSplitArr[6]);
 
@@ -239,6 +253,7 @@ public class DataCollector {
 
 
         Map<String,Map> eduMap = new TreeMap<>();
+
         eduMap.put("Bachelors", bachelorMap);
         eduMap.put("Masters", masterMap);
 
